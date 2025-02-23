@@ -8,7 +8,8 @@
     android:orientation="vertical"
     android:gravity="center|top"
     tools:context=".MainActivity">
-    <!-- android:orientation="vertical": Quy định hướng
+    <!-- android:orientation="vertical": Quy định hướng(Xếp theo hàng dọc)
+    android:orientation="horizontal": Quy định hướng (Xếp theo hàng ngang)
      android:gravity="center": Đối tượng vào giữa
      android:layout_width="wrap_content": Độ rộng theo Nội dung
      android:layout_width="match_parent": Độ rộng theo màn hình-->
@@ -16,7 +17,7 @@
     <Button
         android:id="@+id/nutSo1"
         android:text="Nút Số 1"
-        android:textSize="20dp"
+        android:textSize="40dp"
         android:textColor="#0DED0D"
         android:background="#D30606"
         android:layout_width="wrap_content"
@@ -27,21 +28,23 @@
         android:id="@+id/nutSo2"
         android:text="Nút Số 2"
         android:textSize="20dp"
-        android:textColor="#FF5722"
+        android:textColor="#FF7B53"
         android:background="#1EE9E5"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="20dp" />
 
     <Button
         android:id="@+id/nutSo3"
-        android:text="Nút Số 3"
-        android:textSize="20dp"
-        android:textColor="#FFFFFF"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
         android:background="#D30606"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp" />
+        android:text="Nút Số 3"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
 
 
 </LinearLayout>
