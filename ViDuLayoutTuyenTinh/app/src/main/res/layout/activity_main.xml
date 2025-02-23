@@ -16,7 +16,7 @@
         android:layout_marginLeft="30dp"
         android:textSize="25dp" />
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/SoA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="a"
@@ -24,7 +24,7 @@
         android:textSize="25dp" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/NhapA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -32,7 +32,7 @@
         android:inputType="number" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/SoB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="b"
@@ -40,7 +40,7 @@
         android:textSize="25dp"/>
 
     <EditText
-        android:id="@+id/editTextNumber3"
+        android:id="@+id/NhapB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -51,33 +51,43 @@
         android:id="@+id/phepcong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="+" />
+        android:text="+"
+        android:layout_gravity="center"
+        />
 
     <Button
         android:id="@+id/pheptru"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="-"
+        android:layout_gravity="center"
+
         />
     <Button
         android:id="@+id/phepnhan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="*" />
+        android:text="*"
+        android:layout_gravity="center"
+        />
     <Button
         android:id="@+id/phepchia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="/" />
+        android:text="/"
+        android:layout_gravity="center"
+        />
 
-    <Button
-        android:id="@+id/button"
+    <TextView
+        android:id="@+id/Ketqua"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Kết quả" />
+        android:text="Kết quả:"
+        android:layout_marginLeft="30dp"
+        android:textSize="25dp"/>
 
     <EditText
-        android:id="@+id/Ketqua"
+        android:id="@+id/Hienthi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
