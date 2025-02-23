@@ -17,7 +17,7 @@
     <Button
         android:id="@+id/nutSo1"
         android:text="Nút Số 1"
-        android:textSize="40dp"
+        android:textSize="35dp"
         android:textColor="#0DED0D"
         android:background="#D30606"
         android:layout_width="wrap_content"
@@ -44,7 +44,7 @@
         android:background="#D30606"
         android:text="Nút Số 3"
         android:textColor="#FFFFFF"
-        android:textSize="30dp" />
+        android:textSize="50dp" />
 
 
 </LinearLayout>
