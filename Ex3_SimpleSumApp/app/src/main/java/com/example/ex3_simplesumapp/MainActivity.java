@@ -31,8 +31,20 @@ public class MainActivity extends AppCompatActivity {
         EditText editTextSoA = findViewById(R.id.edtA);
         EditText editTextSoB = findViewById(R.id.edtB);
         EditText editTextKetQua = findViewById(R.id.edtKQ);
-        // Lấy data về
-        
+        // Lấy data ở điều khiển số a
+        String strA = editTextSoA.getText().toString(); // người dùng nhập sẽ có dạng strA = "2"
+        // Lấy data ở điều khiển số b
+        String strB = editTextSoB.getText().toString(); // strB = "5"
+
+        // chuyển data về dạng số
+        int so_A = Integer.parseInt(strA); //so_A = 2
+        int so_B = Integer.parseInt(strB); // so_B = 5
+
+        // Tính toán theo yêu cầu
+        int tong = so_A + so_B; // 7
+        String strTong = String.valueOf(tong); // Chuyển sang dạng chuỗi vì hiển thị ra màn hình là dạng text "7"
+        // Hiển thị ra màn hình
+        editTextKetQua.setText(tong);
 
 
     }
