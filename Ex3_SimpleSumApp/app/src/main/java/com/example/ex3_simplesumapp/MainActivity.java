@@ -2,6 +2,7 @@ package com.example.ex3_simplesumapp;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -26,6 +27,13 @@ public class MainActivity extends AppCompatActivity {
 
     // Lắng nghe và xử lý sự kiện lên nút tính Tổng
     public void XuLyCong(View view){
+// Tìm, tham chiếu đến điều khiển tệp .XML, mapping sang java
+        EditText editTextSoA = findViewById(R.id.edtA);
+        EditText editTextSoB = findViewById(R.id.edtB);
+        EditText editTextKetQua = findViewById(R.id.edtKQ);
+        // Lấy data về
+        
+
 
     }
 }
