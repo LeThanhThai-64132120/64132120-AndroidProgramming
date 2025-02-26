@@ -12,8 +12,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="220dp"
         android:text="a:"
+        android:textColor="#E00909"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,6 +26,8 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="42dp"
         android:text="b:"
+        android:textColor="#CA1C1C"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -32,32 +36,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="121dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="70dp"
         android:layout_marginEnd="121dp"
         android:onClick="XuLyCong"
         android:text="Tính Tổng"
+        android:textColor="#8FE07A"
+        android:textColorHighlight="#D12626"
+        android:textColorLink="#EB4D4D"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintHorizontal_bias="0.196"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtB" />
-
-    <EditText
-        android:id="@+id/edtA"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="28dp"
-        android:ems="10"
-        android:inputType="text"
-        app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/edtB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="25dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintStart_toEndOf="@+id/textView4"
@@ -70,23 +66,44 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="296dp"
-        android:text="Kết Quả"
+        android:text="Kết Quả:"
+        android:textColor="#877B2A"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCong" />
 
     <EditText
-        android:id="@+id/edtKQ"
+        android:id="@+id/edtA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="108dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="220dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvKQ"
+        android:layout_width="152dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#1CB822"
+        android:textSize="34sp"
         app:layout_constraintStart_toEndOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/btnCong" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TÍNH TỔNG 2 SỐ TỰ NHIÊN"
+        android:textColor="#324BD1"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="84dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

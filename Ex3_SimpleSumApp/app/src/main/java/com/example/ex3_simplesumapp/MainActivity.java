@@ -3,6 +3,7 @@ package com.example.ex3_simplesumapp;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 // Tìm, tham chiếu đến điều khiển tệp .XML, mapping sang java
         EditText editTextSoA = findViewById(R.id.edtA);
         EditText editTextSoB = findViewById(R.id.edtB);
-        EditText editTextKetQua = findViewById(R.id.edtKQ);
+        TextView textViewKetQua = findViewById(R.id.tvKQ);
         // Lấy data ở điều khiển số a
         String strA = editTextSoA.getText().toString(); // người dùng nhập sẽ có dạng strA = "2"
         // Lấy data ở điều khiển số b
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         int tong = so_A + so_B; // 7
         String strTong = String.valueOf(tong); // Chuyển sang dạng chuỗi vì hiển thị ra màn hình là dạng text "7"
         // Hiển thị ra màn hình
-        editTextKetQua.setText(tong);
+        textViewKetQua.setText(strTong);
 
 
     }
