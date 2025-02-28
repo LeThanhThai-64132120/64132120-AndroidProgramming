@@ -2,6 +2,7 @@ package com.example.ex4_addsubmuldiv_onclick;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,9 +24,31 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    // 
+    //
      void XuLyCong(View v){
+        //1. Lấy data 2 số
+         //1.1 tìm EditText1 và 2
+         EditText editTextSo1 = (EditText) findViewById(R.id.edtSo1);
+         EditText editTextSo2 = (EditText) findViewById(R.id.edtSo2);
+         //1.2 Lấy data từ 2 điều khiển
+         String soThu1 = editTextSo1.getText().toString();
+         String soThu2 = editTextSo2.getText().toString();
+         //1.3 Chuyển data từ chuỗi sang số
+         float soA = Float.parseFloat(soThu1);
+         float soB = Float.parseFloat(soThu2);
+         //2. Thực hiện tính toán
+         float tong = soA + soA;
+         //3. Hiện kết quả
+         //3.1 Tìm nơi hiện KQ
+         EditText editTextKQ = (EditText) findViewById(R.id.edtKetQua);
+         //3.2 Chuẩn bị data để xuất
+         String KQ = String.valueOf(tong);
+         //3.3 Gán kết quả
+         
 
 
-    }
+
+
+
+     }
 }
