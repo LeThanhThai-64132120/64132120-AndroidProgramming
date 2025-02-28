@@ -2,6 +2,7 @@ package com.example.ex4_addsubmuldiv_onclick;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
@@ -12,24 +13,41 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
+    EditText editTextSo1;
+    EditText editTextSo2;
+    EditText editTextKQ;
+    Button nutCong, nutTru, nutNhan, nutChia;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
+        TimDieuKhien();
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+
     }
+     void TimDieuKhien(){
+         editTextSo1 = (EditText) findViewById(R.id.edtSo1);
+         editTextSo2 = (EditText) findViewById(R.id.edtSo2);
+         editTextKQ = (EditText) findViewById(R.id.edtKetQua);
+         nutCong = (Button) findViewById(R.id.btnCong);
+         nutTru = (Button) findViewById(R.id.btnTru);
+         nutNhan = (Button) findViewById(R.id.btnNhan);
+         nutChia = (Button) findViewById(R.id.btnChia);
+     }
 
     //
-     void XuLyCong(View v){
+    public void XuLyCong(View v){
         //1. Lấy data 2 số
          //1.1 tìm EditText1 và 2
-         EditText editTextSo1 = (EditText) findViewById(R.id.edtSo1);
-         EditText editTextSo2 = (EditText) findViewById(R.id.edtSo2);
+
+
          //1.2 Lấy data từ 2 điều khiển
          String soThu1 = editTextSo1.getText().toString();
          String soThu2 = editTextSo2.getText().toString();
@@ -40,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
          float tong = soA + soB;
          //3. Hiện kết quả
          //3.1 Tìm nơi hiện KQ
-         EditText editTextKQ = (EditText) findViewById(R.id.edtKetQua);
+
          //3.2 Chuẩn bị data để xuất
          String chuoiKQ = String.valueOf(tong);
          //3.3 Gán kết quả
@@ -48,11 +66,11 @@ public class MainActivity extends AppCompatActivity {
      }
 
      // phép trừ
-     void XuLyTru(View v){
+     public void XuLyTru(View v){
          //1. Lấy data 2 số
          //1.1 tìm EditText1 và 2
-         EditText editTextSo1 = (EditText) findViewById(R.id.edtSo1);
-         EditText editTextSo2 = (EditText) findViewById(R.id.edtSo2);
+
+
          //1.2 Lấy data từ 2 điều khiển
          String soThu1 = editTextSo1.getText().toString();
          String soThu2 = editTextSo2.getText().toString();
@@ -63,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
          float tru = soA - soB;
          //3. Hiện kết quả
          //3.1 Tìm nơi hiện KQ
-         EditText editTextKQ = (EditText) findViewById(R.id.edtKetQua);
+
          //3.2 Chuẩn bị data để xuất
          String chuoiKQ = String.valueOf(tru);
          //3.3 Gán kết quả
@@ -71,11 +89,11 @@ public class MainActivity extends AppCompatActivity {
      }
 
      // phép nhân
-     void XuLyNhan(View v){
+     public void XuLyNhan(View v){
          //1. Lấy data 2 số
          //1.1 tìm EditText1 và 2
-         EditText editTextSo1 = (EditText) findViewById(R.id.edtSo1);
-         EditText editTextSo2 = (EditText) findViewById(R.id.edtSo2);
+
+
          //1.2 Lấy data từ 2 điều khiển
          String soThu1 = editTextSo1.getText().toString();
          String soThu2 = editTextSo2.getText().toString();
@@ -86,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
          float nhan = soA * soB;
          //3. Hiện kết quả
          //3.1 Tìm nơi hiện KQ
-         EditText editTextKQ = (EditText) findViewById(R.id.edtKetQua);
+
          //3.2 Chuẩn bị data để xuất
          String chuoiKQ = String.valueOf(nhan);
          //3.3 Gán kết quả
@@ -94,11 +112,11 @@ public class MainActivity extends AppCompatActivity {
      }
 
      // phép chia
-     void XuLyChia(View v){
+     public void XuLyChia(View v){
          //1. Lấy data 2 số
          //1.1 tìm EditText1 và 2
-         EditText editTextSo1 = (EditText) findViewById(R.id.edtSo1);
-         EditText editTextSo2 = (EditText) findViewById(R.id.edtSo2);
+
+
          //1.2 Lấy data từ 2 điều khiển
          String soThu1 = editTextSo1.getText().toString();
          String soThu2 = editTextSo2.getText().toString();
@@ -109,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
          float chia = soA / soB;
          //3. Hiện kết quả
          //3.1 Tìm nơi hiện KQ
-         EditText editTextKQ = (EditText) findViewById(R.id.edtKetQua);
+
          //3.2 Chuẩn bị data để xuất
          String chuoiKQ = String.valueOf(chia);
          //3.3 Gán kết quả
