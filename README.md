@@ -26,11 +26,15 @@ Tính Chia
 
 ![Tính Chia](Anh_App/TinhChia.png)
 
-Tính BMI cơ thể
+    Tính BMI cơ thể
+
+![CT tính BMI](TinhBMI)
 
 ![Tính BMI](Anh_App/TinhBMI.png)
 
     TÍNH DIỆN TÍCH, CHU VI TAM GIÁC
+
+![CT tính tam giac](ChuViDienTich_HinhTamGiac)
 
 Tính Diện tích
 
