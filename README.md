@@ -7,7 +7,8 @@ Tính tổng 2 số tự nhiên
 ![Tong2SNT](Anh_App/Tong2sotunhien.png)
 
     CÁC PHÉP TÍNH CƠ BẢN
-    ![CT tính +-*/](Ex4_AddSubMulDiv_Onclick)
+
+![CT tính +-*/](Ex4_AddSubMulDiv_Onclick)
 
 Tính Cộng
 
