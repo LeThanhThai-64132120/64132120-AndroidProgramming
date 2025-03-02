@@ -1,11 +1,11 @@
 # 64132120-AndroidProgramming
 
         KẾT QUẢ APP THỰC HIỆN
-        
-    Tính tổng 2 số tự nhiên
+
+Tính tổng 2 số tự nhiên
 ![CT tính Tổng STN](Ex3_SimpleSumApp)
 
-![Tong2SNT](Anh_App/Tong2sotunhien.png)
+![Tong2STN](Anh_App/Tong2sotunhien.png)
 
     CÁC PHÉP TÍNH CƠ BẢN
 
