@@ -11,10 +11,15 @@
         android:id="@+id/edtKetQua"
         android:layout_width="226dp"
         android:layout_height="80dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="31dp"
         android:ems="10"
+        android:enabled="false"
         android:inputType="numberDecimal"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="413dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/edtcanhH" />
 
     <TextView
         android:id="@+id/textView"
@@ -45,75 +50,105 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="96dp"
         android:text="Canh b:"
-        tools:layout_editor_absoluteX="223dp"
-        tools:layout_editor_absoluteY="162dp" />
+        app:layout_constraintStart_toEndOf="@+id/edtcanhA"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="117dp"
         android:text="Cạnh c:"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="298dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="117dp"
         android:text="Chiều cao h:"
-        tools:layout_editor_absoluteX="214dp"
-        tools:layout_editor_absoluteY="298dp" />
+        app:layout_constraintStart_toEndOf="@+id/edtcanhC"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
         android:id="@+id/edtcanhH"
         android:layout_width="120dp"
         android:layout_height="41dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="1dp"
         android:ems="10"
+        android:hint="(nếu có)"
         android:inputType="numberDecimal"
-        tools:layout_editor_absoluteX="290dp"
-        tools:layout_editor_absoluteY="286dp"
-        android:hint="(nếu có)"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/edtcanhB" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="119dp"
         android:text="Kết quả:"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="446dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtcanhC" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="66dp"
         android:text="Chọn phép tính"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="531dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <Button
         android:id="@+id/btnChuVi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="267dp"
+        android:onClick="TinhChuVi"
         android:text="Chu vi"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="579dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <Button
         android:id="@+id/btnDienTich"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="43dp"
+        android:onClick="TinhDienTichCoH"
         android:text="Diện tích (có h)"
-        tools:layout_editor_absoluteX="223dp"
-        tools:layout_editor_absoluteY="531dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/edtKetQua" />
 
     <Button
         android:id="@+id/btnDienTich2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="223dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="56dp"
+        android:onClick="TinhDienTich"
         android:text="Diện tích"
-        tools:layout_editor_absoluteX="223dp"
-        tools:layout_editor_absoluteY="627dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDienTich" />
 
     <EditText
         android:id="@+id/edtcanhA"
@@ -121,8 +156,10 @@
         android:layout_height="41dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="79dp"
+        android:layout_marginEnd="22dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -130,18 +167,24 @@
         android:id="@+id/edtcanhB"
         android:layout_width="120dp"
         android:layout_height="41dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="1dp"
         android:ems="10"
         android:inputType="numberDecimal"
-        tools:layout_editor_absoluteX="290dp"
-        tools:layout_editor_absoluteY="145dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
         android:id="@+id/edtcanhC"
         android:layout_width="120dp"
         android:layout_height="41dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="101dp"
         android:ems="10"
         android:inputType="numberDecimal"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="286dp" />
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/edtcanhA" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
