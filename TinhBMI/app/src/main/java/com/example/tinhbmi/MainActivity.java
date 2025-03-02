@@ -2,6 +2,7 @@ package com.example.tinhbmi;
 
 import android.os.Bundle;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -26,13 +27,29 @@ public class MainActivity extends AppCompatActivity {
         //Tìm data
         EditText canNang = findViewById(R.id.edtCanNang);
         EditText chieuCao = findViewById(R.id.edtChieuCao);
+        TextView KetQua = findViewById(R.id.tvKetQua);
+        TextView LoiKhuyen = findViewById(R.id.tvLoiKhuyen);
+
         // Lấy data từ đk đưa vào dạng chuỗi
         String strCanNang = canNang.getText().toString();
         String strChieuCao = chieuCao.getText().toString();
+
         // Chuyển dạng cho data
         float soCanNang = Float.parseFloat(strCanNang);
         float soChieuCao = Float.parseFloat(strChieuCao);
-        // TÍnh 
+
+        // TÍnh BMI
+        float BMI = soCanNang / (soChieuCao * soChieuCao);
+
+        // Hiển thị KQ
+        //Chuyển về dạng chuỗi để hiển thị
+        String strKQ = String.valueOf(BMI);
+
+        if(BMI < 18.5) {
+            KetQua.setText(strKQ);
+            
+        }
+
 
 
     }
