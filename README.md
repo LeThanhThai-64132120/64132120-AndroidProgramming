@@ -6,6 +6,8 @@ Tính tổng 2 số tự nhiên
 
 ![Tong2SNT](Anh_App/Tong2sotunhien.png)
 
+    CÁC PHÉP TÍNH CƠ BẢN
+
 Tính Cộng
 
 ![Tính Cộng](Anh_App/TinhTong.png)
@@ -25,3 +27,17 @@ Tính Chia
 Tính BMI cơ thể
 
 ![Tính BMI](Anh_App/TinhBMI.png)
+
+    TÍNH DIỆN TÍCH, CHU VI TAM GIÁC
+
+Tính Diện tích
+
+![](Anh_App/DTTamGiac.png)
+
+Tính Diện tích dùng chiều cao
+
+![](Anh_App/DTTamGiacCoH.png.png)
+
+Tính Chu vi
+
+![](Anh_App/ChuViTamGiac.png.png)
