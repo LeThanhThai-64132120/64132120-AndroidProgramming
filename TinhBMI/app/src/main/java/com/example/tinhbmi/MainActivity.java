@@ -48,31 +48,27 @@ public class MainActivity extends AppCompatActivity {
         // Hiển thị KQ
         //Chuyển về dạng chuỗi để hiển thị
         String strKQ = String.valueOf(BMI);
-        //KetQua.setText(strKQ);
+        KetQua.setText(strKQ);
 
-        // Hiển thị từng phân loại
+        // Hiển thị Lời khuyên từng phân loại
         if(BMI < 18.5) {
-            KetQua.setText(strKQ);
             LoiKhuyen.setText("(Thiếu cân - Gầy)\nRủi ro: Dễ bị suy dinh dưỡng, giảm sức đề kháng, loãng xương.\n Lời khuyên:\n" +
                     " Tăng cường chế độ ăn giàu dinh dưỡng: ăn đủ chất đạm, tinh bột, chất béo lành mạnh.\n" +
                     " Ăn nhiều bữa trong ngày, bổ sung thực phẩm giàu calo (bơ, sữa, hạt, thịt, cá).\n" +
                     " Kết hợp tập thể dục để tăng khối lượng cơ (tập tạ, yoga, thể dục nhịp điệu nhẹ nhàng).\n");
         } else if (18.5<= BMI && BMI<= 24.9) {
-            KetQua.setText(strKQ);
             LoiKhuyen.setText("(Bình thường - Cân đối)\nRủi ro: Thấp, nhưng vẫn cần duy trì thói quen lành mạnh.\n" +
                     " Lời khuyên:\n" +
                     " Duy trì chế độ ăn uống cân bằng, đủ protein, chất béo, vitamin.\n" +
                     " Tập thể dục thường xuyên (tối thiểu 150 phút/tuần).\n" +
                     " Ngủ đủ giấc, tránh căng thẳng, duy trì tinh thần thoải mái.");
         } else if (25 <= BMI && BMI <= 29.9) {
-            KetQua.setText(strKQ);
             LoiKhuyen.setText("(Thừa cân - Hơi béo)\nRủi ro: Nguy cơ mắc bệnh tim mạch, tiểu đường, huyết áp cao tăng lên.\n" +
                     "Lời khuyên:\n" +
                     " Giảm lượng calo nạp vào, hạn chế đồ ăn nhanh, nước ngọt, thực phẩm chế biến sẵn.\n" +
                     " Tăng cường vận động: đi bộ, chạy bộ, tập gym, bơi lội.\n" +
                     " Kiểm soát stress, ngủ đủ giấc để tránh rối loạn chuyển hóa.");
         } else if ( 30 <= BMI && BMI <= 34.9) {
-            KetQua.setText(strKQ);
             LoiKhuyen.setText("(Béo phì cấp độ 1)\n Rủi ro: Cao, dễ mắc bệnh tiểu đường, huyết áp cao, gan nhiễm mỡ.\n" +
                     " Lời khuyên:\n" +
                     " Cắt giảm tinh bột xấu (cơm trắng, bánh mì trắng), thay bằng tinh bột tốt (yến mạch, khoai lang).\n" +
@@ -80,7 +76,6 @@ public class MainActivity extends AppCompatActivity {
                     " Luyện tập thể dục ít nhất 30-60 phút/ngày.\n" +
                     " Kiểm tra sức khỏe định kỳ.");
         } else if (35 <= BMI && BMI <=39.9) {
-            KetQua.setText(strKQ);
             LoiKhuyen.setText("(Béo phì cấp độ 2)\n Rủi ro: Rất cao, dễ mắc bệnh tim mạch, đột quỵ, thoái hóa khớp.\n" +
                     " Lời khuyên:\n" +
                     " Hạn chế tối đa đồ ăn nhanh, nước ngọt, thực phẩm chế biến sẵn.\n" +
