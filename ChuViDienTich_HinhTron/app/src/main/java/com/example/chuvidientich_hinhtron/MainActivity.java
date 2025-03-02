@@ -36,6 +36,21 @@ public class MainActivity extends AppCompatActivity {
 
         String ketQua = String.valueOf(ChuVi);
         edtKQ.setText(ketQua);
+    }
+
+
+    // Tính Diện Tích
+    public void TinhDienTich(View view){
+        EditText edtR = findViewById(R.id.edtBanKinh);
+        EditText edtKQ = findViewById(R.id.edtKetQua);
+
+        String strBanKinh = edtR.getText().toString();
+
+        float banKinh = Float.parseFloat(strBanKinh);
+        float DienTich = (float) 3.14 * banKinh * banKinh;
+
+        String strKQ = String.valueOf(DienTich);
+        edtKQ.setText(strKQ);
 
     }
 }
