@@ -1,6 +1,8 @@
 package com.example.tinhbmi;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -23,12 +25,14 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
-    public void TinhBMI(){
+    // Chú ý: phải có tham số cho hàm
+    public void TinhBMI(View v){
         //Tìm data
-        EditText canNang = findViewById(R.id.edtCanNang);
-        EditText chieuCao = findViewById(R.id.edtChieuCao);
-        TextView KetQua = findViewById(R.id.tvKetQua);
-        TextView LoiKhuyen = findViewById(R.id.tvLoiKhuyen);
+        EditText canNang = (EditText) findViewById(R.id.edtCanNang);
+        EditText chieuCao = (EditText) findViewById(R.id.edtChieuCao);
+        TextView KetQua = (TextView) findViewById(R.id.tvKetQua);
+        TextView LoiKhuyen = (TextView) findViewById(R.id.tvLoiKhuyen);
+        Button btnTinhBMI = findViewById(R.id.btnTinhBMI);
 
         // Lấy data từ đk đưa vào dạng chuỗi
         String strCanNang = canNang.getText().toString();
