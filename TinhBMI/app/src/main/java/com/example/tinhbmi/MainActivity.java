@@ -1,6 +1,7 @@
 package com.example.tinhbmi;
 
 import android.os.Bundle;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,6 +23,17 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void TinhBMI(){
-        //
+        //Tìm data
+        EditText canNang = findViewById(R.id.edtCanNang);
+        EditText chieuCao = findViewById(R.id.edtChieuCao);
+        // Lấy data từ đk đưa vào dạng chuỗi
+        String strCanNang = canNang.getText().toString();
+        String strChieuCao = chieuCao.getText().toString();
+        // Chuyển dạng cho data
+        float soCanNang = Float.parseFloat(strCanNang);
+        float soChieuCao = Float.parseFloat(strChieuCao);
+        // TÍnh 
+
+
     }
 }
