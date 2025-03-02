@@ -36,8 +36,8 @@ Tính Diện tích
 
 Tính Diện tích dùng chiều cao
 
-![](Anh_App/DTTamGiacCoH.png.png)
+![](Anh_App/DTTamGiacCoH.png)
 
 Tính Chu vi
 
-![](Anh_App/ChuViTamGiac.png.png)
+![](Anh_App/ChuViTamGiac.png)
