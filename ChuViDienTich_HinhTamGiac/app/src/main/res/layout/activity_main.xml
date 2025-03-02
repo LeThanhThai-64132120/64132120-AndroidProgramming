@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#FCFF88">
 
     <EditText
         android:id="@+id/edtKetQua"
@@ -17,6 +18,7 @@
         android:ems="10"
         android:enabled="false"
         android:inputType="numberDecimal"
+        android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/edtcanhH" />
@@ -31,6 +33,7 @@
         android:gravity="center"
         android:text="Tính Diện Tích, Chu Vi Tam Giác"
         android:textSize="25dp"
+        android:textColor="#B234CC"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.216"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,6 +46,8 @@
         android:layout_marginStart="21dp"
         android:layout_marginTop="96dp"
         android:text="Cạnh a:"
+        android:textSize="16sp"
+        android:textColor="#2C6B20"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -52,7 +57,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="23dp"
         android:layout_marginTop="96dp"
-        android:text="Canh b:"
+        android:text="Cạnh b:"
+        android:textSize="16sp"
+        android:textColor="#2C6B20"
         app:layout_constraintStart_toEndOf="@+id/edtcanhA"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -63,18 +70,10 @@
         android:layout_marginStart="21dp"
         android:layout_marginTop="117dp"
         android:text="Cạnh c:"
+        android:textSize="16sp"
+        android:textColor="#2C6B20"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="117dp"
-        android:text="Chiều cao h:"
-        app:layout_constraintStart_toEndOf="@+id/edtcanhC"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
         android:id="@+id/edtcanhH"
@@ -86,8 +85,21 @@
         android:hint="(nếu có)"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/edtcanhB" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="116dp"
+        android:text="Chiều cao h:"
+        android:textSize="16sp"
+        android:textColor="#2C6B20"
+        app:layout_constraintStart_toEndOf="@+id/edtcanhC"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
         android:id="@+id/textView6"
@@ -96,6 +108,8 @@
         android:layout_marginStart="56dp"
         android:layout_marginTop="119dp"
         android:text="Kết quả:"
+        android:textSize="24sp"
+        android:textColor="#4869E7"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtcanhC" />
 
@@ -106,6 +120,8 @@
         android:layout_marginStart="56dp"
         android:layout_marginTop="66dp"
         android:text="Chọn phép tính"
+        android:textSize="20sp"
+        android:textColor="#30A49B"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -127,11 +143,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="73dp"
-        android:layout_marginTop="38dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="43dp"
         android:onClick="TinhDienTichCoH"
         android:text="Diện tích (có h)"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/edtKetQua" />
 

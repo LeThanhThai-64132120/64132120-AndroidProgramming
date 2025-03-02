@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         float soC = Float.parseFloat(canhC);
         float soH = Float.parseFloat(canhH);
 
-        float DienTichCoH = 1/2 * soC * soH;
+        float DienTichCoH = (float) 1/2 * soC * soH;
 
         String strKQ = String.valueOf(DienTichCoH);
         edtKQ.setText(strKQ);
