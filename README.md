@@ -1,2 +1,2 @@
 # 64132120-AndroidProgramming
-Đã clone xong
+![Thực hiện phép Cộng](C:\CODE\MyProjectJava\64132120-AndroidProgramming\Anh App\TinhTong.png)
