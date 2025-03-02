@@ -1,6 +1,8 @@
 package com.example.chuvidientich_hinhtron;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,4 +25,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // tính chu vi hình tròn
+    public void TinhChuVi(View view){
+        EditText edtR = findViewById(R.id.edtBanKinh);
+        EditText edtKQ = findViewById(R.id.edtKetQua);
+
+        String strBanKinh = edtR.getText().toString();
+
+        float banKinh = Float.parseFloat(strBanKinh);
+        double ChuVi = (float) 2 * 3.14 * banKinh;
+
+        String ketQua = String.valueOf(ChuVi);
+        edtKQ.setText(ketQua);
+
+    }
 }
