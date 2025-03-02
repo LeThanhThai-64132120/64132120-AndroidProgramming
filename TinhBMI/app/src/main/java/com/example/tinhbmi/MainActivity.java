@@ -43,15 +43,15 @@ public class MainActivity extends AppCompatActivity {
         float soChieuCao = Float.parseFloat(strChieuCao);
 
         // TÍnh BMI
-        float BMI = soCanNang / (soChieuCao * soChieuCao);
+        float BMI = soCanNang / (soChieuCao / 100 * soChieuCao / 100);
 
         // Hiển thị KQ
         //Chuyển về dạng chuỗi để hiển thị
         String strKQ = String.valueOf(BMI);
-        KetQua.setText(strKQ);
+        //KetQua.setText(strKQ);
 
         // Hiển thị từng phân loại
-        /*if(BMI < 18.5) {
+        if(BMI < 18.5) {
             KetQua.setText(strKQ);
             LoiKhuyen.setText("(Thiếu cân - Gầy)\nRủi ro: Dễ bị suy dinh dưỡng, giảm sức đề kháng, loãng xương.\n Lời khuyên:\n" +
                     " Tăng cường chế độ ăn giàu dinh dưỡng: ăn đủ chất đạm, tinh bột, chất béo lành mạnh.\n" +
@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
                     " Tập thể dục hàng ngày, bắt đầu từ nhẹ nhàng rồi tăng dần cường độ.\n" +
                     " Cân nhắc các biện pháp y khoa như điều trị bằng thuốc hoặc phẫu thuật giảm cân (nếu cần).\n" +
                     " Kiểm tra sức khỏe định kỳ để theo dõi tiến triển.");
-        }*/
+        }
 
 
     }
