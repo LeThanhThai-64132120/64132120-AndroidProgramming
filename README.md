@@ -48,3 +48,15 @@ Tính Diện tích dùng chiều cao
 Tính Chu vi
 
 ![](Anh_App/ChuViTamGiac.png)
+
+    TÍNH DIỆN TÍCH, CHU VI TAM GIÁC
+
+![CT tính hình tròn](ChuViDienTich_HinhTron)
+
+Tính Diện tích Hình Tròn
+
+![](Anh_App/DTHinhTron.png)
+
+Tính Chu Vi Hình Tròn
+
+![](Anh_App/CVHinhTron.png)
