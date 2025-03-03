@@ -59,27 +59,56 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void TinhChuViHV(View v){
-
+        String strcanhA = edtCanhA.getText().toString();
+        float soA = Float.parseFloat(strcanhA);
+        float ChuVi = soA * 4;
+        String strKQ = String.valueOf(ChuVi);
+        edtKetQua.setText(strKQ);
     }
 
     public void TinhChuViHThang(View v){
-
+        String strcanhA = edtCanhA.getText().toString();
+        String strcanhB = edtCanhB.getText().toString();
+        String strcanhC = edtCanhC.getText().toString();
+        String strcanhD = edtCanhD.getText().toString();
+        float soA = Float.parseFloat(strcanhA);
+        float soB = Float.parseFloat(strcanhB);
+        float soC = Float.parseFloat(strcanhC);
+        float soD = Float.parseFloat(strcanhD);
+        float ChuVi = soA + soB + soC + soD;
+        String strKQ = String.valueOf(ChuVi);
+        edtKetQua.setText(strKQ);
     }
 
-    public void TinhChuViHThoi(View v){
 
-    }
     // Dien tich tu giac
+    public void TinhDienTichHCN(View view){
+        String strcanhA = edtCanhA.getText().toString();
+        String strcanhB = edtCanhB.getText().toString();
+        float soA = Float.parseFloat(strcanhA);
+        float soB = Float.parseFloat(strcanhB);
+        float DienTich = (soA * soB);
+        String strKQ = String.valueOf(DienTich);
+        edtKetQua.setText(strKQ);
+    }
     public void TinhDienTichHV(View view){
+        String strcanhA = edtCanhA.getText().toString();
+        float soA = Float.parseFloat(strcanhA);
+        float DienTich = soA * soA;
+        String strKQ = String.valueOf(DienTich);
+        edtKetQua.setText(strKQ);
 
     }
 
     public void TinhDienTichHThang(View view){
-
+        String strcanhA = edtCanhA.getText().toString();
+        String strcanhB = edtCanhB.getText().toString();
+        String strcanhH = edtCanhH.getText().toString();
+        float soA = Float.parseFloat(strcanhA);
+        float soB = Float.parseFloat(strcanhB);
+        float soH = Float.parseFloat(strcanhH);
+        float DienTich = (soA + soB) * soH / 2;
+        String strKQ = String.valueOf(DienTich);
+        edtKetQua.setText(strKQ);
     }
-
-    public void TinhDienTichHThoi(View view){
-
-    }
-
 }

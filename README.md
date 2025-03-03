@@ -49,7 +49,7 @@ Tính Chu vi
 
 ![](Anh_App/ChuViTamGiac.png)
 
-    TÍNH DIỆN TÍCH, CHU VI TAM GIÁC
+    TÍNH DIỆN TÍCH, CHU VI HÌNH TRÒN
 
 ![CT tính hình tròn](ChuViDienTich_HinhTron)
 
@@ -60,3 +60,10 @@ Tính Diện tích Hình Tròn
 Tính Chu Vi Hình Tròn
 
 ![](Anh_App/CVHinhTron.png)
+
+    TÍNH DIỆN TÍCH, CHU VI HÌNH TỨ GIÁC
+
+![CT tính tứ giác](ChuViDienTich_HinhTuGIac)
+
+![](Anh_App/ChuViDienTich_HinhTuGiac.png)
+

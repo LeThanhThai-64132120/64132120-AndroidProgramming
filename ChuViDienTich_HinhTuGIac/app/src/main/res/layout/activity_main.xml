@@ -5,39 +5,33 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#D1FFB6">
 
     <EditText
         android:id="@+id/edtcanhC"
         android:layout_width="107dp"
         android:layout_height="41dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="74dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="76dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:textColor="#FF0000"
         android:textSize="20dp"
         app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/edtcanhA" />
+        app:layout_constraintTop_toBottomOf="@+id/edtcanhA"
+        android:gravity="center"/>
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="99dp"
+        android:layout_marginTop="92dp"
         android:text="Cạnh c"
+        android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="99dp"
-        android:text="Cạnh d"
-        app:layout_constraintStart_toEndOf="@+id/edtcanhC"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
         android:id="@+id/edtcanhA"
@@ -49,43 +43,52 @@
         android:inputType="numberDecimal"
         android:textSize="20dp"
         app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        />
 
     <EditText
         android:id="@+id/edtcanhD"
         android:layout_width="107dp"
         android:layout_height="41dp"
         android:layout_marginStart="22dp"
-        android:layout_marginTop="74dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="120dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:textColor="#FF0000"
         android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/edtKetQua"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/edtcanhB" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="31dp"
-        android:text="Cạnh a"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/edtcanhB"
+        app:layout_constraintVertical_bias="0.428"
+        android:gravity="center"/>
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="33dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="31dp"
         android:text="Cạnh b"
+        android:textSize="20dp"
         app:layout_constraintStart_toEndOf="@+id/edtcanhA"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="92dp"
+        android:text="Cạnh d"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/edtcanhC"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
         android:id="@+id/edtcanhB"
@@ -96,10 +99,24 @@
         android:layout_marginEnd="15dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:textColor="#FF0000"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="31dp"
+        android:text="Cạnh a"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:textSize="20dp"/>
 
     <EditText
         android:id="@+id/edtKetQua"
@@ -114,7 +131,11 @@
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        android:gravity="center"
+        android:textColor="#002FFF"
+
+        />
 
     <TextView
         android:id="@+id/textView7"
@@ -124,7 +145,8 @@
         android:layout_marginTop="33dp"
         android:text="Cạnh h"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtcanhC" />
+        app:layout_constraintTop_toBottomOf="@+id/edtcanhC"
+        android:textSize="20dp"/>
 
     <EditText
         android:id="@+id/edtcanhH"
@@ -139,7 +161,9 @@
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/edtcanhC" />
+        app:layout_constraintTop_toBottomOf="@+id/edtcanhC"
+        android:textColor="#FF0000"
+        />
 
     <TextView
         android:id="@+id/textView6"
@@ -151,49 +175,18 @@
         android:text="Kết quả"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtcanhH" />
+        app:layout_constraintTop_toBottomOf="@+id/edtcanhH"
+        android:textSize="40dp"/>
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="46dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
         android:text="Hình chữ nhật"
         app:layout_constraintStart_toEndOf="@+id/btnChuVi"
         app:layout_constraintTop_toBottomOf="@+id/edtKetQua" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="54dp"
-        android:layout_marginTop="66dp"
-        android:text="Hình vuông"
-        app:layout_constraintStart_toEndOf="@+id/btnChuViHV"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="58dp"
-        android:layout_marginTop="86dp"
-        android:text="Hình thang"
-        app:layout_constraintStart_toEndOf="@+id/btnChuViHThang"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="61dp"
-        android:layout_marginTop="82dp"
-        android:layout_marginBottom="88dp"
-        android:text="Hình thoi"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnChuViHThoi"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <TextView
         android:id="@+id/textView"
@@ -206,7 +199,8 @@
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#2DD01A"/>
 
     <Button
         android:id="@+id/btnChuVi"
@@ -215,105 +209,91 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="17dp"
         android:onClick="TinhChuViHCN"
-        android:text="Chu vi"
+        android:text="Chu vi HCN"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtKetQua" />
-
-    <Button
-        android:id="@+id/btnChuViHV"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="43dp"
-        android:onClick="TinhChuViHV"
-        android:text="Chu vi"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnChuVi" />
-
-    <Button
-        android:id="@+id/btnChuViHThang"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="26dp"
-        android:layout_marginTop="53dp"
-        android:onClick="TinhChuViHThang"
-        android:text="Chu vi"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnChuViHV" />
-
-    <Button
-        android:id="@+id/btnChuViHThoi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="55dp"
-        android:layout_marginBottom="74dp"
-        android:onClick="TinhChuViHThoi"
-        android:text="Chu vi"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnChuViHThang" />
-
-    <Button
-        android:id="@+id/btnDienTich"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="TinhDienTich"
-        android:text="Diện tích"
-        tools:layout_editor_absoluteX="291dp"
-        tools:layout_editor_absoluteY="474dp" />
 
     <Button
         android:id="@+id/btnDienTichHThang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="57dp"
-        android:layout_marginTop="53dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="11dp"
         android:onClick="TinhDienTichHThang"
-        android:text="Diện tích"
+        android:text="Diện tích HThang"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.903"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/btnDienTichHV" />
+
+    <Button
+        android:id="@+id/btnChuViHThang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="60dp"
+        android:onClick="TinhChuViHThang"
+        android:text="Chu vi HThang"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChuViHV" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="88dp"
+        android:text="Hình thang"
+        app:layout_constraintStart_toEndOf="@+id/btnChuViHThang"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <Button
         android:id="@+id/btnDienTichHV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
-        android:layout_marginTop="43dp"
+        android:layout_marginTop="84dp"
         android:layout_marginEnd="11dp"
         android:onClick="TinhDienTichHV"
-        android:text="Diện tích"
+        android:text="Diện tích HV"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView9"
-        app:layout_constraintTop_toBottomOf="@+id/btnDienTich" />
+        app:layout_constraintTop_toBottomOf="@+id/btnDienTichHCN" />
 
     <Button
-        android:id="@+id/btnDienTichHThoi"
+        android:id="@+id/btnChuViHV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="63dp"
-        android:layout_marginTop="55dp"
-        android:layout_marginEnd="11dp"
-        android:layout_marginBottom="74dp"
-        android:onClick="TinhDienTichHThoi"
-        android:text="Diện tích"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView11"
-        app:layout_constraintTop_toBottomOf="@+id/btnDienTichHThang" />
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="84dp"
+        android:onClick="TinhChuViHV"
+        android:text="Chu vi HV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChuVi" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="108dp"
+        android:text="Hình vuông"
+        app:layout_constraintStart_toEndOf="@+id/btnChuViHV"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <Button
-        android:id="@+id/btnDienTich3"
+        android:id="@+id/btnDienTichHCN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="43dp"
         android:layout_marginTop="17dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="11dp"
         android:onClick="TinhDienTichHCN"
-        android:text="Diện tích"
+        android:text="Diện tích HCN"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/edtKetQua" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
