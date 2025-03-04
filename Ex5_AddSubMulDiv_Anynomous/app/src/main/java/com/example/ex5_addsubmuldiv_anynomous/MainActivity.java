@@ -83,7 +83,6 @@ public class MainActivity extends AppCompatActivity {
                 float Chia = soA  / soB;
                 String strKetQua = String.valueOf(Chia);
                 editTextKQ.setText(strKetQua);
-
             }
         });
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
