@@ -19,7 +19,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="CHƯƠNG TRÌNH TÍNH 2 SỐ"
-            android:textSize="32dp">
+            android:textSize="32dp"
+            >
         </TextView>
     </LinearLayout>
 
@@ -31,7 +32,6 @@
         >
 
         <TextView
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Số A: "
