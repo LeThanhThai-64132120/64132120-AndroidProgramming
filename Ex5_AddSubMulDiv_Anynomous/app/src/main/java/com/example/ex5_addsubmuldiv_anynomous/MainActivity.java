@@ -93,6 +93,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+
+
     void TimDieuKhien(){
         editTextSo1 = (EditText) findViewById(R.id.edtSo1);
         editTextSo2 = (EditText) findViewById(R.id.edtSo2);
