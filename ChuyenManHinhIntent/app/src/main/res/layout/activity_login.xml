@@ -5,24 +5,47 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#63D053"
+    android:background="#BBFFB4"
     tools:context=".LoginActivity">
+
 
     <EditText
         android:id="@+id/edtUserName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="108dp"
         android:ems="10"
+        android:gravity="center"
+        android:hint="Nhập vào tên của bạn"
         android:inputType="text"
-        android:text="Name"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="133dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
         android:id="@+id/btnOK"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Xac nhan"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="267dp" />
+        android:layout_width="113dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="156dp"
+        android:text="Xác nhận"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtUserName" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="122dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="145dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_search" />
 </androidx.constraintlayout.widget.ConstraintLayout>

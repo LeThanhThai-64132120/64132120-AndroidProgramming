@@ -8,13 +8,33 @@
     android:background="#59E7DE"
     tools:context=".MainActivity" >
 
-    <Button
-        android:id="@+id/btnLogin"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dang nhap"
-        tools:layout_editor_absoluteX="171dp"
-        tools:layout_editor_absoluteY="207dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="29dp"
+        android:gravity="center"
+        android:text="Chào mừng đến với lớp 64HTTT"
+        android:textSize="25dp"
+        android:textColor="#ED1C3B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="173dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="119dp"
         android:onClick="nutDangNhap"
-        />
+        android:text="Đăng nhập"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
