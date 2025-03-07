@@ -1,5 +1,6 @@
 package com.example.ex7_intentlogin;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -39,7 +40,12 @@ public class LoginActivity extends AppCompatActivity {
                 // Kiểm tra data
                 if(tenDangNhap.equals("lethanhthai") && matKhau.equals("123")) // Mật khẩu đúng
                 {// Chuyển sang màn hình Home
-
+                    Intent iQuiz = new Intent(LoginActivity.this, HomeActivity.class);
+                    // Gói data vào iQuiz, dạng key - value; key được dùng để bên kia lọc ra data
+                    iQuiz.putExtra("ten_dang_nhap", tenDangNhap);
+                    iQuiz.putExtra("mat_khau", matKhau);
+                    // Gửi data đi
+                    startActivity(iQuiz);
                 }
                 else {
                     Toast.makeText(LoginActivity.this, "THÔNG TIN CỦA BẠN SAI", Toast.LENGTH_LONG);
