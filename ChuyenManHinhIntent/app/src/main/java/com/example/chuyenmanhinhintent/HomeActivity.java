@@ -2,6 +2,8 @@ package com.example.chuyenmanhinhintent;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -26,5 +28,15 @@ public class HomeActivity extends AppCompatActivity {
         // Hiện ra điều khiển view
         TextView textViewDn = findViewById(R.id.tvUserName);
         textViewDn.setText(strTenDangNhap);
+
+        ImageView imgQuayLai = findViewById(R.id.imgBack);
+        imgQuayLai.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Back = new Intent(HomeActivity.this, MainActivity.class);
+                startActivity(Back);
+            }
+        });
     }
+
 }

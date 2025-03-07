@@ -14,7 +14,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class LoginActivity extends AppCompatActivity {
     EditText edtTenDangNhap;
-    Button nutXacNhan;
+    Button nutXacNhan, nutQuayVe;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +32,14 @@ public class LoginActivity extends AppCompatActivity {
                iQuiz.putExtra("tenDN",strtenDangNhap);
                // gửi
                startActivity(iQuiz);
+           }
+       });
+       nutQuayVe = findViewById(R.id.btnBack);
+       nutQuayVe.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               Intent Back = new Intent(LoginActivity.this, MainActivity.class);
+               startActivity(Back);
            }
        });
     }
