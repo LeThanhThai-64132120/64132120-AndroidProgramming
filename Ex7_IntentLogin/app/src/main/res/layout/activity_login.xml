@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:text="ĐĂNG NHẬP HỆ THỐNG"
         android:textColor="#686BEF"
-        android:textSize="20dp" />
+        android:textSize="30dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
