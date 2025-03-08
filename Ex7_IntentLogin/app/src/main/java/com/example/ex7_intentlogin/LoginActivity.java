@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -33,6 +34,7 @@ public class LoginActivity extends AppCompatActivity {
                 // B1. Tìm tham chiếu đến điều khiển
                 EditText edtTenDN = (EditText) findViewById(R.id.edtUsername);
                 EditText edtPass = findViewById(R.id.edtPassword);
+                ImageView img = findViewById(R.id.img);
                 // B2. Lấy data
                 String tenDangNhap = edtTenDN.getText().toString();
                 String matKhau = edtPass.getText().toString();
@@ -46,6 +48,8 @@ public class LoginActivity extends AppCompatActivity {
                     iQuiz.putExtra("mat_khau", matKhau);
                     // Gửi data đi
                     startActivity(iQuiz);
+                    img.setImageResource(R.drawable.icon_user);
+
                 }
                 else {
                     Toast.makeText(LoginActivity.this, "THÔNG TIN CỦA BẠN SAI", Toast.LENGTH_LONG);

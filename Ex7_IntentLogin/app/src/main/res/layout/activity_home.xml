@@ -38,7 +38,6 @@
     <ImageView
         android:layout_width="164dp"
         android:layout_height="160dp"
-        android:background="#03A9F4"
         android:layout_marginBottom="20dp"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
