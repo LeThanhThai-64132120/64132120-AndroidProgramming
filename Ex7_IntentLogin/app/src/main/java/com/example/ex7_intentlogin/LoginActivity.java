@@ -38,7 +38,7 @@ public class LoginActivity extends AppCompatActivity {
                 // B2. Lấy data
                 String tenDangNhap = edtTenDN.getText().toString();
                 String matKhau = edtPass.getText().toString();
-
+                img.setImageResource(R.drawable.user_icon);
                 // Kiểm tra data
                 if(tenDangNhap.equals("lethanhthai") && matKhau.equals("123")) // Mật khẩu đúng
                 {// Chuyển sang màn hình Home
@@ -48,11 +48,11 @@ public class LoginActivity extends AppCompatActivity {
                     iQuiz.putExtra("mat_khau", matKhau);
                     // Gửi data đi
                     startActivity(iQuiz);
-                    img.setImageResource(R.drawable.icon_user);
+
 
                 }
                 else {
-                    Toast.makeText(LoginActivity.this, "THÔNG TIN CỦA BẠN SAI", Toast.LENGTH_LONG);
+                    Toast.makeText(LoginActivity.this, "THÔNG TIN CỦA BẠN SAI", Toast.LENGTH_LONG).show();
                 }
             }
         });
