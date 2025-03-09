@@ -67,3 +67,36 @@ Tính Chu Vi Hình Tròn
 
 ![](Anh_App/ChuViDienTich_HinhTuGiac.png)
 
+
+    INTENT(CHUYỂN TRANG)
+
+![CT intent](Ex7_IntentLogin)
+
+Trang Chính
+
+![](Anh_App/Intent_Main.png)
+
+Trang Đăng nhập 
+
+![](Anh_App/Intent_Login.png)
+
+Trang Chủ 
+(Đăng nhập với tư cách Khách sẽ không hiển thị tên)
+
+![](Anh_App/Intent_Home.png)
+
+Trang xem Môn 1
+
+![](Anh_App/Intent_Home_Mon1.png)
+
+Trang xem Môn 2
+
+![](Anh_App/Intent_Home_Mon2.png)
+
+Trang xem Môn 3
+
+![](Anh_App/Intent_Home_Mon3.png)
+
+
+
+
