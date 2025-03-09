@@ -3,13 +3,13 @@
 #        KẾT QUẢ APP THỰC HIỆN
 
 ### Tính tổng 2 số tự nhiên
-![CT tính Tổng STN](Ex3_SimpleSumApp)
+[CT tính Tổng STN](Ex3_SimpleSumApp)
 
 ![Tong2STN](Anh_App/Tong2sotunhien.png)
 
 ##    CÁC PHÉP TÍNH CƠ BẢN
 
-![CT tính +-*/](Ex4_AddSubMulDiv_Onclick)
+[CT tính +-*/](Ex4_AddSubMulDiv_Onclick)
 
 ### Tính Cộng
 
@@ -29,13 +29,13 @@
 
 ##    Tính BMI cơ thể
 
-![CT tính BMI](TinhBMI)
+[CT tính BMI](TinhBMI)
 
 ![Tính BMI](Anh_App/TinhBMI.png)
 
 ##    TÍNH DIỆN TÍCH, CHU VI TAM GIÁC
 
-![CT tính tam giac](ChuViDienTich_HinhTamGiac)
+[CT tính tam giac](ChuViDienTich_HinhTamGiac)
 
 ### Tính Diện tích
 
@@ -51,7 +51,7 @@
 
 ##    TÍNH DIỆN TÍCH, CHU VI HÌNH TRÒN
 
-![CT tính hình tròn](ChuViDienTich_HinhTron)
+[CT tính hình tròn](ChuViDienTich_HinhTron)
 
 ### Tính Diện tích Hình Tròn
 
@@ -63,14 +63,14 @@
 
 ##    TÍNH DIỆN TÍCH, CHU VI HÌNH TỨ GIÁC
 
-![CT tính tứ giác](ChuViDienTich_HinhTuGIac)
+[CT tính tứ giác](ChuViDienTich_HinhTuGIac)
 
 ![](Anh_App/ChuViDienTich_HinhTuGiac.png)
 
 
 ##    INTENT(CHUYỂN TRANG)
 
-![CT intent](Ex7_IntentLogin)
+[CT intent](Ex7_IntentLogin)
 
 ### Trang Chính
 
