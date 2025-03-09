@@ -7,17 +7,37 @@
     android:layout_height="match_parent"
     android:layout_gravity="center_vertical|center_horizontal"
     android:orientation="vertical"
+    android:background="@drawable/san_chao_co"
     tools:context=".MainActivity">
+
+    "
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="155dp"
+        android:src="@drawable/logo_ntu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
+        android:textStyle="bold|italic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="195dp"
+        android:layout_marginTop="156dp"
+        android:fontFamily="sans-serif-black"
         android:gravity="center_horizontal"
         android:text="CHÀO MỪNG BẠN ĐÃ TRUY CẬP VÀO 64.HTTT"
+
+        android:textColor="#FF5555"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -26,12 +46,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="21dp"
-        android:layout_marginTop="71dp"
+        android:layout_marginTop="284dp"
         android:layout_marginEnd="16dp"
         android:gravity="center"
+        android:textColor="#09648E"
         android:text="Ấn vào đăng nhập để khám phá ngay nào!"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -40,23 +62,28 @@
         android:layout_width="188dp"
         android:layout_height="56dp"
         android:layout_marginStart="111dp"
+        android:layout_marginTop="4dp"
         android:layout_marginEnd="112dp"
         android:text="Đăng nhập ngay"
         android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:backgroundTint="#154DFF"/>
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="71dp"
         android:layout_height="39dp"
         android:layout_marginStart="171dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="170dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:srcCompat="@android:drawable/arrow_down_float" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

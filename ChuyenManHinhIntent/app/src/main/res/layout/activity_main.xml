@@ -13,13 +13,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="181dp"
+        android:layout_marginTop="188dp"
         android:layout_marginEnd="29dp"
         android:gravity="center"
-        android:text="Chào mừng đến với lớp 64HTTT"
-        android:textSize="25dp"
+        android:text="Chào mừng đến với lớp 64.HTTT"
         android:textColor="#ED1C3B"
+        android:textSize="45dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

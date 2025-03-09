@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mon3">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="414dp"
+        android:layout_height="319dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bi" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="42dp"
+        android:text="          Các tổ chức thu thập dữ liệu từ các hệ thống công nghệ thông tin (CNTT) nội bộ và các nguồn bên ngoài để phân tích, chạy các truy vấn dựa trên dữ liệu và tạo trực quan hóa dữ liệu, bảng điều khiển BI và báo cáo để cung cấp kết quả phân tích cho người dùng doanh nghiệp. Từ đó, giúp họ đưa ra quyết định liên quan đến công tác vận hành, lập và hoạch định chiến lược."
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imgBackMain4"
+        android:layout_width="67dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="172dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+</androidx.constraintlayout.widget.ConstraintLayout>
