@@ -1,13 +1,13 @@
 # 64132120-AndroidProgramming
 
-        KẾT QUẢ APP THỰC HIỆN
+#        KẾT QUẢ APP THỰC HIỆN
 
 Tính tổng 2 số tự nhiên
 ![CT tính Tổng STN](Ex3_SimpleSumApp)
 
 ![Tong2STN](Anh_App/Tong2sotunhien.png)
 
-    CÁC PHÉP TÍNH CƠ BẢN
+##    CÁC PHÉP TÍNH CƠ BẢN
 
 ![CT tính +-*/](Ex4_AddSubMulDiv_Onclick)
 
@@ -27,13 +27,13 @@ Tính Chia
 
 ![Tính Chia](Anh_App/TinhChia.png)
 
-    Tính BMI cơ thể
+##    Tính BMI cơ thể
 
 ![CT tính BMI](TinhBMI)
 
 ![Tính BMI](Anh_App/TinhBMI.png)
 
-    TÍNH DIỆN TÍCH, CHU VI TAM GIÁC
+##    TÍNH DIỆN TÍCH, CHU VI TAM GIÁC
 
 ![CT tính tam giac](ChuViDienTich_HinhTamGiac)
 
@@ -49,7 +49,7 @@ Tính Chu vi
 
 ![](Anh_App/ChuViTamGiac.png)
 
-    TÍNH DIỆN TÍCH, CHU VI HÌNH TRÒN
+##    TÍNH DIỆN TÍCH, CHU VI HÌNH TRÒN
 
 ![CT tính hình tròn](ChuViDienTich_HinhTron)
 
@@ -61,14 +61,14 @@ Tính Chu Vi Hình Tròn
 
 ![](Anh_App/CVHinhTron.png)
 
-    TÍNH DIỆN TÍCH, CHU VI HÌNH TỨ GIÁC
+##    TÍNH DIỆN TÍCH, CHU VI HÌNH TỨ GIÁC
 
 ![CT tính tứ giác](ChuViDienTich_HinhTuGIac)
 
 ![](Anh_App/ChuViDienTich_HinhTuGiac.png)
 
 
-    INTENT(CHUYỂN TRANG)
+##    INTENT(CHUYỂN TRANG)
 
 ![CT intent](Ex7_IntentLogin)
 
@@ -97,5 +97,3 @@ Trang xem Môn 3
 
 ![](Anh_App/Intent_Home_Mon3.png)
 
-
-# dfdfjnskf
