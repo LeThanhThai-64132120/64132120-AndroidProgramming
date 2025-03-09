@@ -13,6 +13,7 @@
     "
 
     <ImageView
+        android:id="@+id/imageView5"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="155dp"
@@ -26,64 +27,66 @@
 
     <TextView
         android:id="@+id/textView"
-        android:textStyle="bold|italic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="156dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="sans-serif-black"
         android:gravity="center_horizontal"
         android:text="CHÀO MỪNG BẠN ĐÃ TRUY CẬP VÀO 64.HTTT"
 
         android:textColor="#FF5555"
         android:textSize="30dp"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="21dp"
-        android:layout_marginTop="284dp"
+        android:layout_marginTop="296dp"
         android:layout_marginEnd="16dp"
         android:gravity="center"
-        android:textColor="#09648E"
         android:text="Ấn vào đăng nhập để khám phá ngay nào!"
+        android:textColor="#09648E"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <Button
-        android:id="@+id/btnLogin"
-        android:layout_width="188dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="111dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="112dp"
-        android:text="Đăng nhập ngay"
-        android:textSize="18dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        android:backgroundTint="#154DFF"/>
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="71dp"
         android:layout_height="39dp"
         android:layout_marginStart="171dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="170dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:srcCompat="@android:drawable/arrow_down_float" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="188dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="112dp"
+        android:backgroundTint="#154DFF"
+        android:text="Đăng nhập ngay"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

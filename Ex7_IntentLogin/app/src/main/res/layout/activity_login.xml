@@ -23,6 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ĐĂNG NHẬP HỆ THỐNG"
+        android:textStyle="bold"
         android:textColor="#686BEF"
         android:textSize="30dp" />
 
@@ -40,7 +41,10 @@
         <EditText
             android:id="@+id/edtUsername"
             android:layout_width="220dp"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:hint="Tên đăng nhập"
+            />
 
         <ImageView
             android:layout_width="50dp"
@@ -69,6 +73,8 @@
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:layout_marginLeft="5dp"
+            android:textSize="25dp"
+            android:hint="Mật khẩu"
             />
 
         <ImageView
@@ -92,6 +98,14 @@
         android:layout_marginTop="20dp"
         android:backgroundTint="#FF0000"/>
 
-
+    <TextView
+        android:id="@+id/tvguest"
+        android:layout_marginTop="20dp"
+        android:textColor="#1FB3D1"
+        android:gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:text="Nếu bạn không có tài khoản. Hãy đăng nhập với tư cách là khách\n(Ấn vào đây)"/>
 
 </LinearLayout>

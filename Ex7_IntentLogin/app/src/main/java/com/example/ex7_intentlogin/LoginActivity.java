@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -54,6 +55,15 @@ public class LoginActivity extends AppCompatActivity {
                 else {
                     Toast.makeText(LoginActivity.this, "THÔNG TIN CỦA BẠN SAI", Toast.LENGTH_LONG).show();
                 }
+            }
+        });
+
+        TextView tvGuest = findViewById(R.id.tvguest);
+        tvGuest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent chuyenGuest = new Intent(LoginActivity.this, HomeActivity.class);
+                startActivity(chuyenGuest);
             }
         });
 

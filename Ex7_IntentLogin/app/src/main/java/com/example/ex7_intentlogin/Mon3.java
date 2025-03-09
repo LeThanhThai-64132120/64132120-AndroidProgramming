@@ -18,7 +18,7 @@ public class Mon3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_mon3);
-        ImageView nutVeMain = findViewById(R.id.imgBackMain3);
+        ImageView nutVeMain = findViewById(R.id.imgBackMain4);
         nutVeMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

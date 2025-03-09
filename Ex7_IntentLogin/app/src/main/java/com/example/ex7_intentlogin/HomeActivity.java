@@ -36,9 +36,36 @@ public class HomeActivity extends AppCompatActivity {
                 Intent veMain = new Intent(HomeActivity.this, MainActivity.class);
                 startActivity(veMain);
             }
-
-            Button btnMon1 = findViewById(R.id.btnMon1);
-
         });
+        Button btnMon1 = findViewById(R.id.btnMon1);
+        Button btnMon2 = findViewById(R.id.btnMon2);
+        Button btnMon3 = findViewById(R.id.btnMon3);
+        // Chuyển qua Môn 1
+        btnMon1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent chuyenMon1 = new Intent(HomeActivity.this, Mon1.class);
+                startActivity(chuyenMon1);
+            }
+        });
+
+        // Chuyển qua Môn 2
+        btnMon2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent chuyenMon2 = new Intent(HomeActivity.this, Mon2.class);
+                startActivity(chuyenMon2);
+            }
+        });
+
+        // Chuyển qua Môn 3
+        btnMon3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent chuyenMon3 = new Intent(HomeActivity.this, Mon3.class);
+            }
+        });
+
+
     }
 }
