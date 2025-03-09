@@ -3,7 +3,7 @@
 #        KẾT QUẢ APP THỰC HIỆN
 
 ### Tính tổng 2 số tự nhiên
-![CT tính Tổng STN](Ex3_SimpleSumApp)
+[CT tính Tổng STN](Ex3_SimpleSumApp)
 
 ![Tong2STN](Anh_App/Tong2sotunhien.png)
 
