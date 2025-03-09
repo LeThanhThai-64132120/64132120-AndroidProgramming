@@ -44,10 +44,10 @@
     </LinearLayout>
 
     <ImageView
-        android:layout_width="164dp"
-        android:layout_height="160dp"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
         android:layout_marginBottom="20dp"
-        android:src="@drawable/username"
+        android:src="@drawable/hethongthongtin"
         />
 
     <TextView

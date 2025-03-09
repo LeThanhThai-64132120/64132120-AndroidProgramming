@@ -63,6 +63,7 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent chuyenMon3 = new Intent(HomeActivity.this, Mon3.class);
+                startActivity(chuyenMon3);
             }
         });
 
