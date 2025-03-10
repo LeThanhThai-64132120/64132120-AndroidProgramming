@@ -5,6 +5,7 @@
 <div>
   <h4>Ex6: <a href = "Ex3_SimpleSumApp">Ex3_SimpleSumApp</a></h4>
   <img src = "Anh_App/TinhTong.png" width = "200">
+  <img width = "10">
   <img src = "Anh_App/TinhTru.png" width = "200">
   <img src = "Anh_App/TinhNhan.png" width = "200">
   <img src = "Anh_App/TinhChia.png" width = "200">
