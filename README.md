@@ -2,45 +2,38 @@
 
 #        KẾT QUẢ APP THỰC HIỆN
 
-
 ### Tính tổng 2 số tự nhiên
+[CT tính Tổng STN](Ex3_SimpleSumApp)
 
-<div>
-  <h4>Ex3: <a href = "Ex3_SimpleSumApp">Ex3_SimpleSumApp</a></h4>
-  <img  src = "Anh_App/Tong2sotunhien.png" width = "300">
-</div>
-
+![Tong2STN](Anh_App/Tong2sotunhien.png)
 
 ##    CÁC PHÉP TÍNH CƠ BẢN
 
-<div>
-  <h4>Ex4: <a href = "Ex4_AddSubMulDiv_Onclick">Ex4_AddSubMulDiv_Onclick</a></h4>
-  <h5>Phép cộng</h5>
-  <img src = "Anh_App/TinhTong.png" width = "200">
-  <img width = "10">
-  <h5>Phép trừ</h5>
-  <img src = "Anh_App/TinhTru.png" width = "200">
-  <img width = "10">
-  <img src = "Anh_App/TinhNhan.png" width = "200">
-  <img width = "10">
-  <img src = "Anh_App/TinhChia.png" width = "200">
-</div>
+[CT tính +-*/](Ex4_AddSubMulDiv_Onclick)
+
+### Tính Cộng
+
+![Tính Cộng](Anh_App/TinhTong.png)
+
+### Tính Trừ
+
+![Tính Trừ](Anh_App/TinhTru.png)
+
+### Tính Nhân
+
+![Tính Nhân](Anh_App/TinhNhan.png)
+
+### Tính Chia
+
+![Tính Chia](Anh_App/TinhChia.png)
 
 ##    Tính BMI cơ thể
 
-<div>
-  <h4>+: <a href = "TinhBMI">TinhBMI</a></h4>
-  <img src = "Anh_App/TinhBMI.png" width = "200">
-</div>
+[CT tính BMI](TinhBMI)
 
-
+![Tính BMI](Anh_App/TinhBMI.png)
 
 ##    TÍNH DIỆN TÍCH, CHU VI TAM GIÁC
-
-<div>
-  <h4>+: <a href = "TinhBMI">TinhBMI</a></h4>
-  <img src = "Anh_App/TinhBMI.png" width = "200">
-</div>
 
 [CT tính tam giac](ChuViDienTich_HinhTamGiac)
 
