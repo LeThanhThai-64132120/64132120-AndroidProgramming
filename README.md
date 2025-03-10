@@ -7,13 +7,13 @@
 ### Tính tổng 2 số tự nhiên
 
 
-[CT tính Tổng STN](Ex3_SimpleSumApp)
+[Chương trình tính Tổng STN](Ex3_SimpleSumApp)
 
 ![Tong2STN](Anh_App/Tong2sotunhien.png)
 
 ##    CÁC PHÉP TÍNH CƠ BẢN
 
-[CT tính +-*/](Ex4_AddSubMulDiv_Onclick)
+[Chương trình tính + - * /](Ex4_AddSubMulDiv_Onclick)
 
 ### Tính Cộng
 
@@ -34,13 +34,13 @@
 
 ##    Tính BMI cơ thể
 
-[CT tính BMI](TinhBMI)
+[Chương trình tính BMI](TinhBMI)
 
 ![Tính BMI](Anh_App/TinhBMI.png)
 
 ##    TÍNH DIỆN TÍCH, CHU VI TAM GIÁC
 
-[CT tính tam giac](ChuViDienTich_HinhTamGiac)
+[Chương trình tính tam giac](ChuViDienTich_HinhTamGiac)
 
 ### Tính Diện tích
 
@@ -56,7 +56,7 @@
 
 ##    TÍNH DIỆN TÍCH, CHU VI HÌNH TRÒN
 
-[CT tính hình tròn](ChuViDienTich_HinhTron)
+[Chương trình tính hình tròn](ChuViDienTich_HinhTron)
 
 ### Tính Diện tích Hình Tròn
 
@@ -68,14 +68,14 @@
 
 ##    TÍNH DIỆN TÍCH, CHU VI HÌNH TỨ GIÁC
 
-[CT tính tứ giác](ChuViDienTich_HinhTuGIac)
+[Chương trình tính tứ giác](ChuViDienTich_HinhTuGIac)
 
 ![](Anh_App/ChuViDienTich_HinhTuGiac.png)
 
 
 ##    INTENT(CHUYỂN TRANG)
 
-[CT intent](Ex7_IntentLogin)
+[Chương trình intent](Ex7_IntentLogin)
 
 ### Trang Chính
 
@@ -101,5 +101,10 @@
 ### Trang xem Môn 3
 
 ![](Anh_App/Intent_Home_Mon3.png)
+
+
+
+
+
 
 </div>
