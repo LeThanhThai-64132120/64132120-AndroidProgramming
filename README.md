@@ -2,6 +2,13 @@
 
 #        KẾT QUẢ APP THỰC HIỆN
 
+<div>
+  <h4>Ex6: <a href = "Ex3_SimpleSumApp">Ex3_SimpleSumApp</a></h4>
+  <img src = "Anh_App/TinhTong.png" width = "200">
+  
+</div>
+
+
 ### Tính tổng 2 số tự nhiên
 [CT tính Tổng STN](Ex3_SimpleSumApp)
 
