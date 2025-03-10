@@ -5,11 +5,11 @@
 ### Tính tổng 2 số tự nhiên
 [CT tính Tổng STN](Ex3_SimpleSumApp)
 
-![Tong2STN](Anh_App/Tong2sotunhien.png)
+                            ![Tong2STN](Anh_App/Tong2sotunhien.png)
 
 ##    CÁC PHÉP TÍNH CƠ BẢN
 
-[CT tính +-*/](Ex4_AddSubMulDiv_Onclick)
+                            [CT tính +-*/](Ex4_AddSubMulDiv_Onclick)
 
 ### Tính Cộng
 
