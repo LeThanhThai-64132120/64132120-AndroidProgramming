@@ -2,11 +2,9 @@
 
 #        KẾT QUẢ APP THỰC HIỆN
 
+<div align="center">
 ### Tính tổng 2 số tự nhiên
 
-<p align="center">
-  <img src="Anh_App/Tong2sotunhien.png" alt="Tong2STN" />
-</p>
 
 [CT tính Tổng STN](Ex3_SimpleSumApp)
 
@@ -102,3 +100,4 @@
 
 ![](Anh_App/Intent_Home_Mon3.png)
 
+</div>
