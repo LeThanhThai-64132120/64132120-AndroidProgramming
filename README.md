@@ -3,6 +3,7 @@
 #        KẾT QUẢ APP THỰC HIỆN
 
 <div align="center">
+
 ### Tính tổng 2 số tự nhiên
 
 
@@ -29,6 +30,7 @@
 ### Tính Chia
 
 ![Tính Chia](Anh_App/TinhChia.png)
+<br>
 
 ##    Tính BMI cơ thể
 
