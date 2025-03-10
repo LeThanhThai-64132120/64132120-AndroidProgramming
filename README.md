@@ -40,7 +40,7 @@
 
 ##    TÍNH DIỆN TÍCH, CHU VI TAM GIÁC
 
-[Chương trình tính tam giac](ChuViDienTich_HinhTamGiac)
+[Chương trình tính tam giác](ChuViDienTich_HinhTamGiac)
 
 ### Tính Diện tích
 
@@ -75,7 +75,7 @@
 
 ##    INTENT(CHUYỂN TRANG)
 
-[Chương trình intent](Ex7_IntentLogin)
+[Chương trình Intent](Ex7_IntentLogin)
 
 ### Trang Chính
 
