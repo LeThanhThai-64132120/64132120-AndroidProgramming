@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         tvsoB = findViewById(R.id.tvsoB);
         tvCheck = findViewById(R.id.tvCheck);
         edtKQ = findViewById(R.id.edtKQ);
-        btnCheck = findViewById(R.id.btnTinh);
+        btnCheck = findViewById(R.id.btnCheck);
         TaoRandomSo();
     }
 

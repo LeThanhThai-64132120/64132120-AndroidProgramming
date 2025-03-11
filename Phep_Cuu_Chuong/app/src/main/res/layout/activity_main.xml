@@ -7,74 +7,153 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tvsoA"
-        android:layout_width="110dp"
-        android:layout_height="66dp"
-        android:layout_marginStart="67dp"
-        android:layout_marginTop="207dp"
-        android:layout_marginEnd="40dp"
-        app:layout_constraintEnd_toStartOf="@+id/textView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
-        android:id="@+id/btnTinh"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="165dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="156dp"
+        android:id="@+id/btnCheck"
+        android:layout_width="272dp"
+        android:layout_height="70dp"
+        android:onClick="Tinh"
         android:text="Check"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvCheck"
-        android:onClick="Tinh"/>
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="805dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="207dp"
         android:text="X"
-        app:layout_constraintStart_toEndOf="@+id/tvsoA"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="125dp" />
 
     <TextView
         android:id="@+id/tvsoB"
-        android:layout_width="91dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="69dp"
-        android:layout_marginTop="207dp"
-        android:layout_marginEnd="110dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="so B"
+        android:textSize="40dp"
+
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <TextView
+        android:id="@+id/tvsoA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="so A"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="125dp" />
 
     <TextView
         android:id="@+id/tvCheck"
-        android:layout_width="126dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="165dp"
-        android:layout_marginTop="34dp"
-        android:layout_marginEnd="188dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtKQ" />
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:hint="Đúng rồi nè bạn ơi"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="211dp" />
 
     <EditText
         android:id="@+id/edtKQ"
+        android:layout_width="120dp"
+        android:layout_height="69dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="50"
+        android:inputType="number"
+        android:textSize="45dp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <TextView
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="93dp"
-        android:layout_marginTop="86dp"
-        android:layout_marginEnd="108dp"
-        android:ems="10"
-        android:inputType="number"
-        android:hint="ket qua"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvsoA" />
+        android:text="="
+        android:textSize="60dp"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <Button
+        android:id="@+id/btnso5"
+        android:layout_width="136dp"
+        android:layout_height="70dp"
+        android:text="5"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="611dp" />
+
+    <Button
+        android:id="@+id/btnso2"
+
+        android:layout_width="136dp"
+        android:layout_height="70dp"
+        android:text="2"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <Button
+        android:id="@+id/btnso8"
+        android:layout_width="136dp"
+        android:layout_height="70dp"
+        android:text="8"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="712dp" />
+
+    <Button
+        android:id="@+id/btnso0"
+        android:layout_width="136dp"
+        android:layout_height="70dp"
+        android:text="0"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="805dp" />
+
+    <Button
+        android:id="@+id/btnso3"
+        android:layout_width="136dp"
+        android:layout_height="70dp"
+        android:text="3"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <Button
+        android:id="@+id/btnso9"
+        android:layout_width="136dp"
+        android:layout_height="70dp"
+        android:text="9"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="712dp" />
+
+    <Button
+        android:id="@+id/btnso6"
+        android:layout_width="136dp"
+        android:layout_height="70dp"
+        android:text="6"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="611dp" />
+
+    <Button
+        android:id="@+id/btnso1"
+        android:layout_width="135dp"
+        android:layout_height="70dp"
+        android:text="1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <Button
+        android:id="@+id/btnso7"
+        android:layout_width="135dp"
+        android:layout_height="70dp"
+        android:text="7"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="712dp" />
+
+    <Button
+        android:id="@+id/btnso4"
+        android:layout_width="135dp"
+        android:layout_height="70dp"
+        android:text="4"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="611dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
