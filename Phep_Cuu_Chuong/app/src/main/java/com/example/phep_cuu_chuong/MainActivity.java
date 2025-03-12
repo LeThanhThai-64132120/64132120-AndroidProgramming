@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         btnSo8 = findViewById(R.id.btnso8);
         btnSo9 = findViewById(R.id.btnso9);
         btnSo10 = findViewById(R.id.btnso10);
-
+        edtKQ.setText("0");
 
         TaoRandomSo();
     }
