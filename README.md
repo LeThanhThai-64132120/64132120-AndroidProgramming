@@ -106,9 +106,7 @@
 ##    BẢNG CỬU CHƯƠNG 1
 
 [Chương trình Bảng cửu chương 1](Phep_Cuu_Chuong)
-<div>
-<img src = "Anh_App/Banngcuuchuong1_dung.png" width = "400">
-<img src = "Anh_App/Banngcuuchuong1_sai.png" width = "400">
-</div>
 
+![sa](Anh_App/Bangcuuchuong1_dung.png)
+![alt](Anh_App/Bangcuuchuong1_sai.png)
 
