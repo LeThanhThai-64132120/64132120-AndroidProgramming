@@ -2,7 +2,7 @@
 
 #        KẾT QUẢ APP THỰC HIỆN
 
-<div align="center">
+
 
 ### Tính tổng 2 số tự nhiên
 
@@ -103,8 +103,12 @@
 ![](Anh_App/Intent_Home_Mon3.png)
 
 
+##    BẢNG CỬU CHƯƠNG 1
 
-
-
-
+[Chương trình Bảng cửu chương 1](Phep_Cuu_Chuong)
+<div>
+<img src = "Anh_App/Banngcuuchuong1_dung.png" width = "400">
+<img src = "Anh_App/Banngcuuchuong1_sai.png" width = "400">
 </div>
+
+
