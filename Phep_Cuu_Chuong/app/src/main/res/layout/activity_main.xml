@@ -5,155 +5,313 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_toan"
     tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="41dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="232dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvCheck"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/phepnhan1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="158dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="4dp"
+
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/tvCheck"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/phepnhan" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="380dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="Cùng nhau luyện tập bảng cửu chương mỗi ngày nhé‍🎓"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#FBD700"/>
 
     <Button
         android:id="@+id/btnCheck"
-        android:layout_width="272dp"
+        android:layout_width="136dp"
         android:layout_height="70dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="1dp"
         android:onClick="Tinh"
         android:text="Check"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="805dp" />
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnso0"
+        app:layout_constraintTop_toBottomOf="@+id/btnso9"
+        android:backgroundTint="#050AF2"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtKQ"
+        android:textStyle="bold"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="KQ"
+        android:textColor="#00BCD4"
+        android:inputType="number"
+        android:textSize="65dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/tvsoB" />
+
+    <TextView
+        android:id="@+id/tvCheck"
+        android:layout_width="335dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="38dp"
+        android:gravity="center"
+        android:hint="Check ngay"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/white"
+        android:textStyle="italic|bold"
+        app:layout_constraintTop_toBottomOf="@+id/edtKQ" />
+
+    <TextView
+        android:id="@+id/tvsoB"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:gravity="center"
+        android:layout_marginTop="34dp"
+        android:textColor="@color/white"
+        android:layout_marginEnd="48dp"
+        android:hint="so B"
+        android:textSize="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/tvsoA"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="34dp"
+        android:gravity="center"
+        android:hint="so A"
+        android:textSize="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:textColor="@color/white"/>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="51dp"
         android:text="X"
+        android:textStyle="bold"
+        android:textColor="#FFEB3B"
         android:textSize="40dp"
-        tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="125dp" />
-
-    <TextView
-        android:id="@+id/tvsoB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="so B"
-        android:textSize="40dp"
-
-        tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="125dp" />
-
-    <TextView
-        android:id="@+id/tvsoA"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="so A"
-        android:textSize="40dp"
-        tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="125dp" />
-
-    <TextView
-        android:id="@+id/tvCheck"
-        android:layout_width="150dp"
-        android:layout_height="70dp"
-        android:gravity="center"
-        android:hint="Đúng rồi nè bạn ơi"
-        android:textSize="20dp"
-        tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="211dp" />
-
-    <EditText
-        android:id="@+id/edtKQ"
-        android:layout_width="120dp"
-        android:layout_height="69dp"
-        android:ems="10"
-        android:gravity="center"
-        android:hint="50"
-        android:inputType="number"
-        android:textSize="45dp"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="213dp" />
+        app:layout_constraintStart_toEndOf="@+id/tvsoA"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
         android:id="@+id/textView4"
+        android:textStyle="bold"
+        android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="41dp"
         android:text="="
         android:textSize="60dp"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="211dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvsoA" />
 
     <Button
         android:id="@+id/btnso5"
         android:layout_width="136dp"
         android:layout_height="70dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="23dp"
         android:text="5"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="611dp" />
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/btnso4"
+        app:layout_constraintTop_toBottomOf="@+id/btnso2"
+        android:onClick="Nhapso5"
+        android:backgroundTint="#F47272"
+        android:textStyle="bold"/>
 
     <Button
         android:id="@+id/btnso2"
-
         android:layout_width="136dp"
         android:layout_height="70dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="21dp"
         android:text="2"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="518dp" />
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/btnso1"
+        app:layout_constraintTop_toBottomOf="@+id/tvCheck"
+        android:onClick="Nhapso2"
+        android:backgroundTint="#F47272"
+        android:textStyle="bold"/>
 
     <Button
         android:id="@+id/btnso8"
         android:layout_width="136dp"
         android:layout_height="70dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="23dp"
         android:text="8"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="712dp" />
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/btnso7"
+        app:layout_constraintTop_toBottomOf="@+id/btnso5"
+        android:onClick="Nhapso8"
+        android:backgroundTint="#F47272"
+        android:textStyle="bold"/>
 
     <Button
-        android:id="@+id/btnso0"
+        android:id="@+id/btnso10"
         android:layout_width="136dp"
         android:layout_height="70dp"
-        android:text="0"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="805dp" />
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="23dp"
+        android:text="10"
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/btnDelete"
+        app:layout_constraintTop_toBottomOf="@+id/btnso8"
+        android:onClick="Nhapso10"
+        android:backgroundTint="#F47272"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="135dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="23dp"
+        android:text="Delete"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="Delete"
+        app:layout_constraintTop_toBottomOf="@+id/btnso7"
+        android:backgroundTint="#DBB400"
+        android:textStyle="bold"/>
 
     <Button
         android:id="@+id/btnso3"
         android:layout_width="136dp"
         android:layout_height="70dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="2dp"
         android:text="3"
-        tools:layout_editor_absoluteX="273dp"
-        tools:layout_editor_absoluteY="518dp" />
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnso2"
+        app:layout_constraintTop_toBottomOf="@+id/tvCheck"
+        android:onClick="Nhapso3"
+        android:backgroundTint="#F47272"
+        android:textStyle="bold"/>
 
     <Button
         android:id="@+id/btnso9"
         android:layout_width="136dp"
         android:layout_height="70dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="23dp"
         android:text="9"
-        tools:layout_editor_absoluteX="275dp"
-        tools:layout_editor_absoluteY="712dp" />
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnso8"
+        app:layout_constraintTop_toBottomOf="@+id/btnso6"
+        android:onClick="Nhapso9"
+        android:backgroundTint="#F47272"
+        android:textStyle="bold"
+        />
 
     <Button
         android:id="@+id/btnso6"
         android:layout_width="136dp"
         android:layout_height="70dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="23dp"
         android:text="6"
-        tools:layout_editor_absoluteX="275dp"
-        tools:layout_editor_absoluteY="611dp" />
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnso5"
+        app:layout_constraintTop_toBottomOf="@+id/btnso3"
+        android:onClick="Nhapso6"
+        android:backgroundTint="#F47272"
+        android:textStyle="bold"/>
 
     <Button
         android:id="@+id/btnso1"
+        android:backgroundTint="#F47272"
+        android:textStyle="bold"
         android:layout_width="135dp"
         android:layout_height="70dp"
+        android:layout_marginTop="21dp"
         android:text="1"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="518dp" />
+        android:textSize="40dp"
+        android:onClick="Nhapso1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCheck" />
 
     <Button
         android:id="@+id/btnso7"
         android:layout_width="135dp"
         android:layout_height="70dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="23dp"
         android:text="7"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="712dp" />
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnso4"
+        android:onClick="Nhapso7"
+        android:backgroundTint="#F47272"
+        android:textStyle="bold"/>
 
     <Button
         android:id="@+id/btnso4"
         android:layout_width="135dp"
         android:layout_height="70dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="23dp"
         android:text="4"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="611dp" />
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnso1"
+        android:onClick="Nhapso4"
+        android:backgroundTint="#F47272"
+        android:textStyle="bold"/>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
