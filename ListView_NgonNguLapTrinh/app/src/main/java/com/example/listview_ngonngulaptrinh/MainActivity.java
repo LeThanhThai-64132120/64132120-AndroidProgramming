@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
         dsNNLT.add("C++");
         dsNNLT.add("C#");
         dsNNLT.add("Java");
-        
         // B2.
         ArrayAdapter<String> adapterNNLT;
         adapterNNLT = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1,dsNNLT);
