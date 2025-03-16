@@ -25,4 +25,12 @@
         android:layout_below="@id/clothTitle"
         android:src="@drawable/clothing"/>
 
+    <ImageView
+        android:id="@+id/imageViewBack"
+        android:layout_width="64dp"
+        android:layout_height="68dp"
+        android:src="@android:drawable/ic_menu_revert"
+        android:onClick="QuayLai"/>
+
+
 </RelativeLayout>
