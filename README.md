@@ -110,3 +110,24 @@
 ![sa](Anh_App/Bangcuuchuong1_dung.png)
 ![alt](Anh_App/Bangcuuchuong1_sai.png)
 
+##    SỬ DỤNG COMPLETE TEXTVIEW VÀ LISTVIEW 
+
+[Chương trình](UseAutoCompleteTV_ListView/)
+
+### Trang chủ
+
+![alt](Anh_App/completTV_home.png)
+
+### Tìm kiếm
+
+![alt](Anh_App/completTV_find.png)
+
+##    TRANG LOGIN CƠ BẢN
+
+[Chương trình Trang Login Cơ bản](Easy_Login_Page/)
+
+### Đăng nhập thành công
+![alt](Anh_App/EasyLoginSuccess.png)
+
+### Đăng nhập thất bại
+![alt](Anh_App/EasyLoginFailed.png)
