@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
         electronicCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ElectronicActivity.class);
-                startActivity(intent);
+                Intent intentELec = new Intent(MainActivity.this, ElectronicActivity.class);
+                startActivity(intentELec);
             }
         });
 
