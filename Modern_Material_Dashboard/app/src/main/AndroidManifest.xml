@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         tools:targetApi="31">
         <activity
+            android:name=".ClothingActivity2"
+            android:exported="false" />
+        <activity
             android:name=".ClothingActivity"
             android:exported="false" />
         <activity
