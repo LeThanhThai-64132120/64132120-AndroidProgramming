@@ -131,3 +131,13 @@
 
 ### Đăng nhập thất bại
 ![alt](Anh_App/EasyLoginFailed.png)
+
+##    TRANG DASHBOARD 
+
+[Chương trình Dashboard](Dashboard)
+
+### Trang chủ
+![alt](Anh_App/Dashboard_Home.png)
+
+### Trang các thiết bị điện tử
+![alt](Anh_App/Dashboard_Electronic.png)
