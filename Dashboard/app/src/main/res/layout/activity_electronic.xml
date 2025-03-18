@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/clothTitle"
-        android:text="Clothing"
+        android:text="Electrnic"
         android:textSize="36sp"
         android:layout_marginTop="40dp"
         android:textColor="@color/lavender"
@@ -21,9 +21,9 @@
     <ImageView
         android:layout_width="500dp"
         android:layout_height="500dp"
-        android:id="@+id/clothImage"
+        android:id="@+id/elecImage"
         android:layout_below="@id/clothTitle"
-        android:src="@drawable/clothing"/>
+        android:src="@drawable/electronics"/>
 
     <ImageView
         android:id="@+id/imgBack"

@@ -12,7 +12,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-    CardView clothingCard;
+    CardView clothingCard, electronicCard, homeCard, beautyCard, pharmacyCard, groceriesCard ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,11 +21,24 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         clothingCard = findViewById(R.id.clothingCard);
+        electronicCard= findViewById(R.id.electronicCard);
+        homeCard = findViewById(R.id.homeCard);
+        beautyCard = findViewById(R.id.beautyCard);
+        pharmacyCard = findViewById(R.id.beautyCard);
+        groceriesCard = findViewById(R.id.groceriesCard);
 
         clothingCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ClothingActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        electronicCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ElectronicActivity.class);
                 startActivity(intent);
             }
         });

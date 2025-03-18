@@ -11,20 +11,19 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class ClothingActivity extends AppCompatActivity {
+public class ElectronicActivity extends AppCompatActivity {
 
     ImageView Back;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_clothing);
-
+        setContentView(R.layout.activity_electronic);
         Back = findViewById(R.id.imgBack);
         Back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentBack = new Intent(ClothingActivity.this, MainActivity.class);
+                Intent intentBack = new Intent(ElectronicActivity.this, MainActivity.class);
                 startActivity(intentBack);
             }
         });
