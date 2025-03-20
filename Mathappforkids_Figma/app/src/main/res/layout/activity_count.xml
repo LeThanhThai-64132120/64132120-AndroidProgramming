@@ -18,7 +18,7 @@
 
 
     <ImageView
-        android:id="@+id/imdBackHome"
+        android:id="@+id/imgBackHome"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginStart="325dp"
@@ -49,7 +49,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imdBackHome" />
+        app:layout_constraintTop_toBottomOf="@+id/imgBackHome" />
 
     <Button
         android:id="@+id/btn6"
@@ -58,11 +58,13 @@
         android:layout_marginStart="74dp"
         android:layout_marginTop="21dp"
         android:layout_marginEnd="47dp"
+        android:layout_marginBottom="67dp"
         android:backgroundTint="#FFF193"
-        android:textColor="#A48A05"
         android:text="6"
+        android:textColor="#A48A05"
         android:textSize="40dp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn1"
         app:layout_constraintTop_toBottomOf="@+id/btn2" />
@@ -75,23 +77,25 @@
         android:layout_marginTop="21dp"
         android:layout_marginBottom="67dp"
         android:backgroundTint="#FFA5A5"
-        android:textColor="#FF1505"
         android:text="1"
+        android:textColor="#FF1505"
         android:textSize="40dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn4" />
+        app:layout_constraintTop_toBottomOf="@+id/btn4"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/btn4"
         android:layout_width="125dp"
         android:layout_height="69dp"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="28dp"
         android:backgroundTint="#98F272"
-        android:textColor="#2A6F2D"
         android:text="4"
+        android:textColor="#2A6F2D"
         android:textSize="40dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -112,5 +116,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn4"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/tvKetQua"
+        android:layout_width="159dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:hint="Kết quả"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
