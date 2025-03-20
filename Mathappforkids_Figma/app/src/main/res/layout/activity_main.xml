@@ -50,6 +50,7 @@
                 android:layout_marginTop="43dp"
                 android:gravity="center"
                 android:text="123"
+                android:textColor="#2A6F2D"
                 android:textSize="30dp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -64,6 +65,7 @@
                 android:text="Count"
                 android:textStyle="bold"
                 android:textSize="35dp"
+                android:textColor="#2A6F2D"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -112,6 +114,7 @@
                     android:text="Match"
                     android:textStyle="bold"
                     android:textSize="35dp"
+                    android:textColor="#267D8E"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView3" />
@@ -121,7 +124,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:backgroundTint="#FD5E5E"
+        android:backgroundTint="#FFA5A5"
         android:id="@+id/mode3Card"
         android:layout_width="150dp"
         android:layout_height="200dp"
@@ -147,6 +150,7 @@
                     android:layout_marginTop="16dp"
                     android:gravity="center"
                     android:text="1\n22\n333"
+                    android:textColor="#FF0E00"
                     android:textSize="30dp"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -162,6 +166,7 @@
                     android:text="Pattern"
                     android:textSize="35dp"
                     android:textStyle="bold"
+                    android:textColor="#FF1505"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -170,14 +175,14 @@
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
-    <androidx.cardview.widget.CardView
+        <androidx.cardview.widget.CardView
         android:id="@+id/mode4Card"
         android:layout_width="150dp"
         android:layout_height="200dp"
         android:layout_marginStart="79dp"
         android:layout_marginTop="64dp"
         android:layout_marginEnd="20dp"
-        android:backgroundTint="#DBC547"
+        android:backgroundTint="#FFF193"
         app:cardCornerRadius="20dp"
         app:cardElevation="20dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -211,6 +216,7 @@
                     android:text="Settings"
                     android:textSize="35dp"
                     android:textStyle="bold"
+                    android:textColor="#A48A05"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
