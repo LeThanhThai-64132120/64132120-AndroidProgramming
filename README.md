@@ -141,3 +141,17 @@
 
 ### Trang các thiết bị điện tử
 ![alt](Anh_App/Dashboard_Electronic.png)
+
+
+### Đăng nhập thất bại
+![alt](Anh_App/EasyLoginFailed.png)
+
+##    TRANG APP MATH FOR KIDS DÙNG FIGMA 
+
+[Chương trình ](Mathappforkids_Figma/)
+
+
+![alt](Anh_App/Mathforkid_Home.png)
+![alt](Anh_App/Mathforkid_Count.png)
+![alt](Anh_App/Mathforkid_Setting.png.png)
+![alt](Anh_App/Mathforkid_Match.png.png)
