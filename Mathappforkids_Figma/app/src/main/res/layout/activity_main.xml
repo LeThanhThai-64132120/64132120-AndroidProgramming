@@ -26,41 +26,64 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
-    <ImageView
-        android:id="@+id/imgMode1"
-        android:layout_width="211dp"
-        android:layout_height="207dp"
-        android:layout_marginTop="80dp"
-        android:src="@drawable/img_mode1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.005"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="354dp">
 
-    <ImageView
-        android:id="@+id/imgMode2"
-        android:layout_width="match_parent"
-        android:layout_height="474dp"
-        android:layout_marginTop="81dp"
-        android:src="@drawable/img_mode2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/imgMode3"
-        android:layout_width="match_parent"
-        android:layout_height="474dp"
-        android:src="@drawable/img_mode3"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="321dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="123"
+                android:textSize="30dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="43dp" />
 
-    <ImageView
-        android:id="@+id/imgMode4"
-        android:layout_width="match_parent"
-        android:layout_height="474dp"
-        android:src="@drawable/img_mode4"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="321dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Count"
+                android:textSize="35dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="121dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="354dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Count"
+                    android:textSize="35dp"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="121dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 
