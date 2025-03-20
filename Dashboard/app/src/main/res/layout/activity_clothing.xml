@@ -29,6 +29,8 @@
         android:id="@+id/imgBack"
         android:layout_width="65dp"
         android:layout_height="65dp"
-        app:srcCompat="@android:drawable/ic_menu_revert" />
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        />
+
 
 </RelativeLayout>
