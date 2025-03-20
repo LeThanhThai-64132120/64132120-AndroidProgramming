@@ -21,18 +21,25 @@
         android:id="@+id/imdBackHome"
         android:layout_width="70dp"
         android:layout_height="70dp"
+        android:layout_marginStart="325dp"
+        android:layout_marginEnd="16dp"
         android:src="@drawable/home"
-        tools:layout_editor_absoluteX="325dp"
-        tools:layout_editor_absoluteY="150dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <ImageView
+        android:id="@+id/imageView5"
         android:layout_width="match_parent"
         android:layout_height="347dp"
+        android:layout_marginTop="15dp"
         android:src="@drawable/bears"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="288dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -40,56 +47,70 @@
         android:textColor="#ABFF5722"
         android:textSize="40dp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="220dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imdBackHome" />
 
     <Button
         android:id="@+id/btn6"
         android:layout_width="125dp"
         android:layout_height="69dp"
-        android:text="6"
-        android:textSize="40dp"
-        android:textColor="#A48A05"
-        android:textStyle="bold"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="47dp"
         android:backgroundTint="#FFF193"
-        tools:layout_editor_absoluteX="239dp"
-        tools:layout_editor_absoluteY="756dp" />
+        android:text="6"
+        android:textColor="#A48A05"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn1"
+        app:layout_constraintTop_toBottomOf="@+id/btn2" />
 
     <Button
         android:id="@+id/btn1"
         android:layout_width="125dp"
         android:layout_height="69dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="67dp"
+        android:backgroundTint="#FFA5A5"
         android:text="1"
+        android:textColor="#FF1505"
         android:textSize="40dp"
         android:textStyle="bold"
-        android:textColor="#FF1505"
-        android:backgroundTint="#FFA5A5"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="756dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn4" />
 
     <Button
         android:id="@+id/btn4"
         android:layout_width="125dp"
         android:layout_height="69dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#98F272"
         android:text="4"
+        android:textColor="#2A6F2D"
         android:textSize="40dp"
         android:textStyle="bold"
-        android:textColor="#2A6F2D"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="665dp"
-        android:backgroundTint="#98F272"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
     <Button
         android:id="@+id/btn2"
         android:layout_width="125dp"
         android:layout_height="69dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="47dp"
+        android:backgroundTint="#66CCFF"
         android:text="2"
+        android:textColor="#267D8E"
         android:textSize="40dp"
         android:textStyle="bold"
-        android:textColor="#267D8E"
-        android:backgroundTint="#66CCFF"
-        tools:layout_editor_absoluteX="239dp"
-        tools:layout_editor_absoluteY="665dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
