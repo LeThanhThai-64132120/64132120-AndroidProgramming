@@ -155,6 +155,6 @@
 
 ![alt](Anh_App/Mathforkid_Count.png)
 
-![alt](Anh_App/Mathforkid_Setting.png.png)
+![alt](Anh_App/Mathforkid_Setting.png)
 
-![alt](Anh_App/Mathforkid_Match.png.png)
+![alt](Anh_App/Mathforkid_Match.png)
