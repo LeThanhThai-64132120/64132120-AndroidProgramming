@@ -5,114 +5,166 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/btnTru"
         android:layout_width="123dp"
+        android:backgroundTint="#0037FB"
         android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="45dp"
         android:text="-"
         android:textSize="35dp"
-        tools:layout_editor_absoluteX="243dp"
-        tools:layout_editor_absoluteY="621dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnCong"
+        app:layout_constraintTop_toBottomOf="@+id/tvKetQua" />
 
     <EditText
         android:id="@+id/edtSoB"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
         android:layout_width="260dp"
         android:layout_height="61dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="17dp"
         android:ems="10"
-        android:hint="Nhập số B"
         android:gravity="center"
-        android:inputType="numberSigned"
+        android:hint="Nhập số B"
+        android:inputType="numberSigned|numberDecimal"
         android:textSize="40dp"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="276dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/edtSoA" />
 
     <EditText
         android:id="@+id/edtSoA"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
         android:layout_width="260dp"
         android:layout_height="61dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="16dp"
         android:ems="10"
-        android:hint="Nhập số A"
         android:gravity="center"
-        android:inputType="numberSigned"
+        android:hint="Nhập số A"
+        android:inputType="numberSigned|numberDecimal"
         android:textSize="40dp"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="175dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <TextView
         android:id="@+id/tvKetQua"
+        android:textStyle="bold"
+        android:textColor="#000FFF"
         android:layout_width="253dp"
         android:layout_height="130dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="79dp"
+        android:gravity="center"
         android:hint="KQ"
         android:textSize="45dp"
-        android:gravity="center"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="465dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <Button
         android:id="@+id/btnChia"
         android:layout_width="123dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#3F51B5"
+        android:layout_marginEnd="45dp"
         android:text="/"
         android:textSize="35dp"
-        tools:layout_editor_absoluteX="243dp"
-        tools:layout_editor_absoluteY="712dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnNhan"
+        app:layout_constraintTop_toBottomOf="@+id/btnTru" />
 
     <TextView
         android:id="@+id/textView5"
+        android:textStyle="bold"
+        android:textColor="#A035CA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="146dp"
         android:text="Kết quả"
         android:textSize="35dp"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="392dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtSoB" />
 
     <TextView
         android:id="@+id/textView4"
+        android:textStyle="bold"
+        android:textColor="#000FFF"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="53dp"
         android:text="Số B:"
         android:textSize="30dp"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="276dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
         android:id="@+id/textView3"
+        android:textStyle="bold"
+        android:textColor="#000FFF"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="53dp"
         android:text="Số A:"
         android:textSize="30dp"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="183dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <Button
         android:id="@+id/btnNhan"
+        android:backgroundTint="#E6DD00"
         android:layout_width="123dp"
         android:layout_height="wrap_content"
-        android:textSize="35dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="24dp"
         android:text="x"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="712dp" />
+        android:textSize="35dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCong" />
 
     <TextView
         android:id="@+id/textView6"
+        android:textColor="#D4FF00"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:gravity="center"
         android:text="CHƯƠNG TRÌNH\nTÍNH TOÁN 2 SỐ"
+        android:textStyle="bold"
         android:textSize="40dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="30dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnCong"
+        android:backgroundTint="#F64646"
         android:layout_width="123dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="26dp"
         android:text="+"
         android:textSize="35dp"
-
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="621dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvKetQua" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
