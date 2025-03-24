@@ -47,7 +47,7 @@ public class ElectronicActivity extends AppCompatActivity {
         });
 
         // Chuẩn bị dữ liệu
-        String[] data = {"Máy tính", "Điện thoại", "Máy giặc", "TV"};
+        String[] data = {"Laptop", "Smart Phone", "TV"};
         ArrayList<String> dsElectronic = new ArrayList<String>(Arrays.asList(data));
 
         // Tạo adapter
