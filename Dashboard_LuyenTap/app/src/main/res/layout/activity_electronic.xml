@@ -31,12 +31,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
+    <AutoCompleteTextView
+        android:id="@+id/atctvElectronic"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
     <ListView
         android:id="@+id/lvElectronic"
         android:layout_width="match_parent"
         android:layout_height="500dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="283dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
     <ImageView
         android:id="@+id/imgBack"

@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         String[] data =  {"Banana", "Apple", "Orange", "Grapes", "Pineapple", "Strawberry", "Mango", "Passion", "Blueberry"};
         dsTraiCay = new ArrayList<>(Arrays.asList(data));
         // tao Adapter
+        
         ArrayAdapter<String> adapterTraiCay;
         adapterTraiCay = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, dsTraiCay);
 
