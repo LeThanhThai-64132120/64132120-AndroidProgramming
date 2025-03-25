@@ -161,3 +161,10 @@
 ![alt](Anh_App/Mathforkid_Setting.png)
 
 ![alt](Anh_App/Mathforkid_Match.png)
+
+##    TRANG RecyclerView LandScape
+
+[Chương trình RecyclerView ](RecyclerView)
+
+### Trang chủ
+![alt](Anh_App/LandScape_Home.png)
