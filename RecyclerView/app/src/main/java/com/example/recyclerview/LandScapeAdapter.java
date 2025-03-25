@@ -51,7 +51,7 @@ public class LandScapeAdapter extends RecyclerView.Adapter<LandScapeAdapter.Item
 
     @Override
     public int getItemCount() {
-        return 0;
+        return lstData.size();
     } // Kế thừa
 
     class ItemlandHoler extends RecyclerView.ViewHolder{
