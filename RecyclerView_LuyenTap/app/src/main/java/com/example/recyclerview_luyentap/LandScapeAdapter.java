@@ -74,9 +74,5 @@ public class LandScapeAdapter extends RecyclerView.Adapter<LandScapeAdapter.Item
             ivLandScape = itemView.findViewById(R.id.imageViewLand);
         }
 // buoc 2. Dien <>
-
-
-
-
     }
 }
