@@ -172,9 +172,6 @@
 ##    Kiểm tra Giữa Kì
 
 [Chương trình](64132120_ThiGiuaKy)
-
-![alt](Anh_App/GK_1.png) ![alt](Anh_App/GK_2.png)
-
-![alt](Anh_App/GK_3.png) ![alt](Anh_App/GK_4.png)
-
-![alt](Anh_App/GK_5.png)
+![alt](Anh_App/GK_Home.png)![alt](Anh_App/GK_1.png) 
+![alt](Anh_App/GK_2.png)![alt](Anh_App/GK_3.png)
+![alt](Anh_App/GK_4.png)![alt](Anh_App/GK_5.png)
