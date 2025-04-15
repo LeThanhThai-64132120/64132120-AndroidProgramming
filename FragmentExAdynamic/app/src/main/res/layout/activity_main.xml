@@ -7,25 +7,26 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/frameFooterHolder"
-        android:name="com.example.fragmentexadynamic.FooterFragment"
-        android:layout_width="0dp"
-        android:layout_height="100dp"
-        android:background="#AD2B2B"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <androidx.fragment.app.FragmentContainerView
+    <FrameLayout
         android:id="@+id/frameContentHolder"
-        android:name="com.example.fragmentexadynamic.ContentFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#30F2E7"
+        android:background="#DC3434"
         app:layout_constraintBottom_toTopOf="@+id/frameFooterHolder"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameFooterHolder"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="#C8E74E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
