@@ -7,21 +7,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<!--    <fragment-->
-<!--        android:id="@+id/fragment"-->
-<!--        android:name="com.example.fragments.ContentFragment"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="0dp"-->
-<!--        app:layout_constraintBottom_toTopOf="@+id/frgChanTrang"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.0"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
+    <!--    <fragment-->
+    <!--        android:id="@+id/fragment"-->
+    <!--        android:name="com.example.fragments.ContentFragment"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/frgChanTrang"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.0"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
 
     <fragment
         android:id="@+id/frameFooterHolder"
-        android:name="com.example.fragments.FooterFragment"
-        android:layout_width="match_parent"
+android:name="com.example.fragmentexadynamic.FooterFragment"        android:layout_width="match_parent"
         android:layout_height="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,8 +29,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/frameContentHolder"
-        android:name="com.example.fragments.ContentFragment"
-        android:layout_width="0dp"
+android:name="com.example.fragmentexadynamic.ContentFragment"        android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/frameFooterHolder"
         app:layout_constraintEnd_toEndOf="parent"
