@@ -169,10 +169,19 @@
 ### Trang chủ
 ![alt](Anh_App/LandScape_Home.png)
 
-##    Kiểm tra Giữa Kì
+##    GIỮA KÌ
 
 [Chương trình](64132120_ThiGiuaKy)
 
 ![alt](Anh_App/GK_Home.png)![alt](Anh_App/GK_1.png) 
 ![alt](Anh_App/GK_2.png)![alt](Anh_App/GK_3.png)
 ![alt](Anh_App/GK_4.png)![alt](Anh_App/GK_5.png)
+
+## FRAGMENT
+
+### Fragment dùng Static
+
+[Fragment Static](Fragments)
+[Fragment Static](FragmentExAddDynamic)
+[Fragment Static](FragmentExReplace)
+![alt](Anh_App/fragment.png/) ![alt](Anh_App/fragment1.png/) ![alt](Anh_App/fragment2.png/) ![alt](Anh_App/fragment3.png/)
