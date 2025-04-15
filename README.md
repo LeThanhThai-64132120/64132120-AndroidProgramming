@@ -182,6 +182,9 @@
 ### Fragment dùng Static
 
 [Fragment Static](Fragments)
+
 [Fragment Static](FragmentExAddDynamic)
+
 [Fragment Static](FragmentExReplace)
-![alt](Anh_App/fragment.png/) ![alt](Anh_App/fragment1.png/) ![alt](Anh_App/fragment2.png/) ![alt](Anh_App/fragment3.png/)
+
+![alt](Anh_App/fragment.png/)![alt](Anh_App/fragment1.png/)![alt](Anh_App/fragment2.png/)![alt](Anh_App/fragment3.png/)
