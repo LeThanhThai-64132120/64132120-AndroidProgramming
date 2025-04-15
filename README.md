@@ -183,8 +183,8 @@
 
 [Fragment Static](Fragments)
 
-[Fragment Static](FragmentExAddDynamic)
+[Fragment Dynamic](FragmentExAdđDynamic)
 
-[Fragment Static](FragmentExReplace)
+[Fragment Replace](FragmentExReplace)
 
 ![alt](Anh_App/fragment.png/)![alt](Anh_App/fragment1.png/)![alt](Anh_App/fragment2.png/)![alt](Anh_App/fragment3.png/)
