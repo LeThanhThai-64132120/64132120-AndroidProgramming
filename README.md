@@ -179,10 +179,15 @@
 
 ## FRAGMENT
 
-### Fragment dùng Static
-
 [Fragment Static](Fragments)
 
 [Fragment Replace](FragmentExReplace)
 
 ![alt](Anh_App/fragment.png/)![alt](Anh_App/fragment1.png/)![alt](Anh_App/fragment2.png/)![alt](Anh_App/fragment3.png/)
+
+## FIREBASE REALTIME DB - QUẢN LÝ CHI TIÊU
+
+[Chương trình QLCT](QuanLyChiTieu)
+
+![alt](Anh_App/firebase.png)
+
