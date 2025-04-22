@@ -7,10 +7,10 @@
         android:title="HOME" />
     <item
         android:id="@+id/mnu_search"
-        android:icon="@drawable/baseline_home_24"
+        android:icon="@drawable/ic_search"
         android:title="SEARCH" />
     <item
         android:id="@+id/mnu_frofile"
-        android:icon="@drawable/baseline_home_24"
+        android:icon="@drawable/ic_profile"
         android:title="PROFILE" />
 </menu>
