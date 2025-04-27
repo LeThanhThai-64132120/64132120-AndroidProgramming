@@ -3,8 +3,24 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/nav_home"
-        android:title="Home" />
-    <item android:title="Item" />
-    <item android:title="Item" />
+        android:id="@+id/nav_welcome"
+        android:title="Welcome"
+        android:icon="@mipmap/ic_launcher"/>
+    <item
+        android:id="@+id/nav_cau1"
+        android:title="Cau 1"
+        android:icon="@mipmap/ic_launcher"/>
+    <item
+        android:id="@+id/nav_cau2"
+        android:title="Cau 2"
+        android:icon="@mipmap/ic_launcher"/>
+    <item
+        android:id="@+id/nav_cau3"
+        android:title="Cau 3"
+        android:icon="@mipmap/ic_launcher"/>
+
+    <item
+        android:id="@+id/nav_cau4"
+        android:title="Cau 4"
+        android:icon="@mipmap/ic_launcher"/>
 </menu>
